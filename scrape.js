@@ -8,31 +8,39 @@ const { chromium } = require('playwright');
   const dateString = yesterday.toISOString().split('T')[0];
 
   const browser = await chromium.launch({ headless: true });
-  const page = await browser.newPage();
+  // Set a standard desktop User-Agent to avoid headless blocking
+  const context = await browser.newContext({
+    userAgent:
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+  });
 
-  // 1. Go to main site first
-  await page.goto('https://cssbattle.dev', { waitUntil: 'networkidle' });
+  const page = await context.newPage();
 
-  // 2. Locate and click the top solutions button, or navigate directly to its target URL
+  console.log('Navigating to CSSBattle...');
+  // Use 'domcontentloaded' instead of 'networkidle' to avoid socket connection timeouts
+  await page.goto('https://cssbattle.dev', {
+    waitUntil: 'domcontentloaded',
+    timeout: 60000
+  });
+
   const buttonSelector = 'a.button[href*="openTopSolutions=true"]';
-  
+
   try {
-    await page.waitForSelector(buttonSelector, { timeout: 5000 });
+    await page.waitForSelector(buttonSelector, { timeout: 10000 });
     await page.click(buttonSelector);
   } catch (error) {
-    console.log('Button not clicked directly; navigating via URL query param...');
-    // Fallback direct navigation if home DOM varies
+    console.log('Button selector not found on main page, navigating directly to fallback URL...');
     await page.goto('https://cssbattle.dev/play/YaO5dVF3I9R870zMutcX?openTopSolutions=true', {
-      waitUntil: 'networkidle'
+      waitUntil: 'domcontentloaded',
+      timeout: 60000
     });
   }
 
-  // Wait for submission items to load inside the modal/panel
-  await page.waitForSelector('.submissions-list__item', { timeout: 15000 }).catch(() => {
-    console.log('Submission items took long to load or required login.');
+  console.log('Waiting for submissions list to render...');
+  await page.waitForSelector('.submissions-list__item', { timeout: 20000 }).catch(() => {
+    console.log('Submission items took long to load or are unavailable.');
   });
 
-  // Extract submission codes
   const filteredResults = await page.evaluate(() => {
     const items = document.querySelectorAll('.submissions-list__item');
     return Array.from(items)
