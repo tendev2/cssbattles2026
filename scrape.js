@@ -46,7 +46,10 @@ const { chromium } = require('playwright');
     return Array.from(items)
       .map(item => {
         const codeElement = item.querySelector('.submissions-list__code');
-        return codeElement ? codeElement.textContent.trim() : null;
+        if (!codeElement) return null;
+
+        // Strips character count badge and separator (e.g., "91› " -> "")
+        return codeElement.textContent.trim().replace(/^\d+›\s*/, '');
       })
       .filter(Boolean);
   });
