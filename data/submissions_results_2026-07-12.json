@@ -1,7 +1,13 @@
 {
   "date": "2026-07-12",
   "target": "",
-  "colors": [],
+  "colors": [
+    "#B7D7CD",
+    "#411C56",
+    "#6A97",
+    "#0000",
+    "#C06C88"
+  ],
   "submissions": [
     "<style>*{margin:-10-111 0 130;background:radial-gradient(1Q at 0%46%,#b7d7cd 32Q,#411c56 0 60px,#b7d7cd)fixed 54vw}&{margin:75 234 65 86;color:C06C88;box-shadow:53Q -5ch,69Q 27Q 0 5Q,15ex -5ch#411c56",
     "<style>*{margin:-10-434 0 140;font:38%a;background:radial-gradient(1q,#B7D7CD,13em,#411C56 0 60px,#B7D7CD)2in 167q}&{margin:75 234 65 76;color:C06C88;box-shadow:125px -58q 0-5vh#411C56,74q 32q,63q -42q",

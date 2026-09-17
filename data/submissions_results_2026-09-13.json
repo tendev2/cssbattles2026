@@ -1,7 +1,10 @@
 {
   "date": "2026-09-13",
   "target": "",
-  "colors": [],
+  "colors": [
+    "#391B1B",
+    "#7253BC"
+  ],
   "submissions": [
     "<style>*{border:5ch solid#391B1B;scale:.5;margin:-290 250-470-60}&{margin:-15 60 75;corner-shape:notch;border-radius:0 43%/5ch;outline:9cm solid#7253BC",
     "<style>*{corner-shape:notch;border-radius:0 60%/5vw;margin:65 150 155;box-shadow:0 0 0 5vw#391B1B,3in 0 0 8cm#7253BC;*{margin:-125 220-215-10;scale:-.5",

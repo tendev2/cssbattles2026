@@ -1,7 +1,10 @@
 {
   "date": "2026-07-15",
   "target": "",
-  "colors": [],
+  "colors": [
+    "#F48B26",
+    "#F5E3B5"
+  ],
   "submissions": [
     "<hr><p><hr><p><hr><p><style>&{background:#F48B26;* *{float:left;margin:62-8-14 58;border:7vw solid#F5E3B5}p{rotate:15deg",
     "<hr><p><hr><p><hr><p><style>& *{background:#f48b26;float:left;margin:35 17 13 33;*{border:7vw solid#f5e3b5}p{rotate:15deg",

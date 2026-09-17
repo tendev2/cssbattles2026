@@ -1,7 +1,11 @@
 {
   "date": "2026-09-08",
   "target": "",
-  "colors": [],
+  "colors": [
+    "#333",
+    "#F1D36F",
+    "#EC5D"
+  ],
   "submissions": [
     ".<p>.<style>*{background:#333;margin:-25 60;border-radius:.6lh}&,p{box-shadow:0 0 0 63em#F1D36F;margin:75 80}p{margin:52 30;font:2%/63q\"",
     "<p> <style>p{margin:-124-60}*{background:radial-gradient(1q,#333 32q,#F1D36F 0 58ex,#333);margin:25 70 130;*{border-radius:9q;font:2q/79'",

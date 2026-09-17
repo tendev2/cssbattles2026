@@ -1,7 +1,10 @@
 {
   "date": "2026-06-23",
   "target": "",
-  "colors": [],
+  "colors": [
+    "#1B5F1E",
+    "#B3F0B6"
+  ],
   "submissions": [
     "<h1><img><style>*{margin:50-32;*{*{rotate:-60deg}outline:dashed 8ex#1B5F1E}+*{background:#B3F0B6;clip-path:inset(-50%31%",
     "<style>*{border:113q solid#b3f0b6;margin:-56-6;*{background:#1b5f1e;clip-path:polygon(65%0,9%66%,36%66%,36%98%,91%34%,64%34%",

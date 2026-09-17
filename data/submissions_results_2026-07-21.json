@@ -1,7 +1,11 @@
 {
   "date": "2026-07-21",
   "target": "",
-  "colors": [],
+  "colors": [
+    "#4A9A86",
+    "#FAE29E",
+    "#EBF6F0"
+  ],
   "submissions": [
     "<style>*{background:#4A9A86;margin:40%290 60-90;box-shadow:5pc 0#FAE29E,55ch 0,7cm 0 0-32q,25pc -32q,75vw 0#EBF6F0;color:4A9A86;*{margin:-100-380 50%380;scale:-1",
     "<style>*{margin:37.5%50%;color:4A9A86;box-shadow:53q -53q 0 5ch#FAE29E,64q -43q 0 54q,60px -11q 0 53q#EBF6F0,5em -3vw 0 76q,5em 5vw 0 74q#EBF6F0,2in 0 0 2in;scale:-1",

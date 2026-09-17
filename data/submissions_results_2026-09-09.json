@@ -1,7 +1,10 @@
 {
   "date": "2026-09-09",
   "target": "",
-  "colors": [],
+  "colors": [
+    "#28BE",
+    "#328FC1"
+  ],
   "submissions": [
     "<style>*{margin:90 115;color:3B3F58;box-shadow:.56lh 11Q,-.56lh 11Q,0 33ch;*{background:#28be;margin:-60 50 90;font:9q/19\"",
     "<style>&{background:#28BE;color:3B3F58;margin:40 165 170;box-shadow:-5lh 0,5lh 0,0 138q,0 32q 0 53q#328FC1,-63q 5lh,63q 5lh",

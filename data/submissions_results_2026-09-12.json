@@ -1,7 +1,10 @@
 {
   "date": "2026-09-12",
   "target": "",
-  "colors": [],
+  "colors": [
+    "#F5E3B5",
+    "#1D025E"
+  ],
   "submissions": [
     "<style>*{background:radial-gradient(1Q,#f5e3b5 53q,#1d025e)0-58q;*{margin:-333%19.4 5;zoom:9",
     "<style>*{*{margin:-148 19.4 5;zoom:9}background:0-58Q radial-gradient(1q,#f5e3b5 53Q,#1d025e",
