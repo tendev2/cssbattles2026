@@ -1,95 +1,74 @@
 const fs = require('fs');
 const path = require('path');
-const { chromium } = require('playwright');
 
-(async () => {
-  const yesterday = new Date();
-  yesterday.setDate(yesterday.getDate() - 1);
-  const dateString = yesterday.toISOString().split('T')[0];
+const dataDir = path.join(__dirname, 'data');
 
-  const browser = await chromium.launch({ headless: true });
+if (!fs.existsSync(dataDir)) {
+  console.log('No data directory found.');
+  process.exit(0);
+}
+
+// Read all JSON files in the data directory
+const files = fs.readdirSync(dataDir).filter(file => file.endsWith('.json'));
+
+console.log(`Found ${files.length} file(s) to process...`);
+
+files.forEach(file => {
+  const filePath = path.join(dataDir, file);
   
-  const context = await browser.newContext({
-    userAgent:
-      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-  });
-
-  const page = await context.newPage();
-
-  console.log('Navigating to CSSBattle...');
-  await page.goto('https://cssbattle.dev', {
-    waitUntil: 'domcontentloaded',
-    timeout: 60000
-  });
-
-  const buttonSelector = 'a.button[href*="openTopSolutions=true"]';
-
   try {
-    await page.waitForSelector(buttonSelector, { timeout: 10000 });
-    await page.click(buttonSelector);
-  } catch (error) {
-    console.log('Button not found on home page, opening fallback target...');
-    await page.goto('https://cssbattle.dev/play/cubFEvfArqYmYhs3IHF4?openTopSolutions=true', {
-      waitUntil: 'domcontentloaded',
-      timeout: 60000
+    const rawContent = fs.readFileSync(filePath, 'utf8');
+    const data = JSON.parse(rawContent);
+
+    // 1. Clean submissions by stripping character count markers (e.g. "91›")
+    const sourceSubmissions = data.submissions || data.codes || [];
+    const cleanedSubmissions = sourceSubmissions.map(submission => {
+      if (typeof submission === 'string') {
+        return submission.replace(/^\d+›\s*/, '');
+      }
+      return submission;
     });
-  }
 
-  console.log('Waiting for elements to load...');
-  await page.waitForSelector('.submissions-list__item', { timeout: 20000 }).catch(() => {
-    console.log('Submission items took long to load or are unavailable.');
-  });
-
-  // Extract page data
-  const scrapedData = await page.evaluate(() => {
-    // 1. Extract Target Image URL
-    const imgElement = document.querySelector('img.levelpage__target');
-    const targetImage = imgElement ? imgElement.src : '';
-
-    // 2. Extract Submissions
-    const items = document.querySelectorAll('.submissions-list__item');
-    const submissions = Array.from(items)
-      .map(item => {
-        const codeElement = item.querySelector('.submissions-list__code');
-        if (!codeElement) return null;
-        // Strip character count badge and separator (e.g., "91› ")
-        return codeElement.textContent.trim().replace(/^\d+›\s*/, '');
-      })
-      .filter(Boolean);
-
-    // 3. Extract Colors directly from Submissions using Regex
+    // 2. Extract colors directly from the cleaned submission code
     const hexRegex = /#(?:[0-9a-fA-F]{3,4}){1,2}\b/g;
     const extractedColorsSet = new Set();
 
-    submissions.forEach(code => {
-      const matches = code.match(hexRegex);
-      if (matches) {
-        matches.forEach(color => extractedColorsSet.add(color.toUpperCase()));
+    // Preserve any existing valid colors in the file first
+    if (Array.isArray(data.colors)) {
+      data.colors.forEach(c => {
+        if (typeof c === 'string' && c.startsWith('#')) {
+          extractedColorsSet.add(c.toUpperCase());
+        }
+      });
+    }
+
+    // Extract hex codes from all submission strings
+    cleanedSubmissions.forEach(code => {
+      if (typeof code === 'string') {
+        const matches = code.match(hexRegex);
+        if (matches) {
+          matches.forEach(color => extractedColorsSet.add(color.toUpperCase()));
+        }
       }
     });
 
-    return {
-      targetImage,
+    // 3. Ensure target image URL property exists (default to empty string if missing)
+    const targetImage = data.target !== undefined ? data.target : '';
+
+    // Construct the updated schema object
+    const updatedData = {
+      date: data.date || '',
+      target: targetImage,
       colors: Array.from(extractedColorsSet),
-      submissions
+      submissions: cleanedSubmissions
     };
-  });
 
-  await browser.close();
-
-  const jsonData = {
-    date: dateString,
-    target: scrapedData.targetImage,
-    colors: scrapedData.colors,
-    submissions: scrapedData.submissions
-  };
-
-  const outputDir = path.join(__dirname, 'data');
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true });
+    // Write back the updated JSON structure with 2-space formatting
+    fs.writeFileSync(filePath, JSON.stringify(updatedData, null, 2));
+    console.log(`Updated ${file}: Extracted ${updatedData.colors.length} color(s).`);
+  } catch (err) {
+    console.error(`Error processing ${file}:`, err.message);
   }
+});
 
-  const filePath = path.join(outputDir, `submissions_results_${dateString}.json`);
-  fs.writeFileSync(filePath, JSON.stringify(jsonData, null, 2));
-  console.log(`Successfully saved data with ${scrapedData.colors.length} unique extracted color(s) to ${filePath}`);
-})();
+console.log('Migration completed successfully.');
