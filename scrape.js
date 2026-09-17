@@ -8,7 +8,7 @@ const { chromium } = require('playwright');
   const dateString = yesterday.toISOString().split('T')[0];
 
   const browser = await chromium.launch({ headless: true });
-  // Set a standard desktop User-Agent to avoid headless blocking
+  
   const context = await browser.newContext({
     userAgent:
       'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
@@ -17,7 +17,6 @@ const { chromium } = require('playwright');
   const page = await context.newPage();
 
   console.log('Navigating to CSSBattle...');
-  // Use 'domcontentloaded' instead of 'networkidle' to avoid socket connection timeouts
   await page.goto('https://cssbattle.dev', {
     waitUntil: 'domcontentloaded',
     timeout: 60000
@@ -29,37 +28,56 @@ const { chromium } = require('playwright');
     await page.waitForSelector(buttonSelector, { timeout: 10000 });
     await page.click(buttonSelector);
   } catch (error) {
-    console.log('Button selector not found on main page, navigating directly to fallback URL...');
-    await page.goto('https://cssbattle.dev/play/YaO5dVF3I9R870zMutcX?openTopSolutions=true', {
+    console.log('Button not found on home page, opening fallback target...');
+    await page.goto('https://cssbattle.dev/play/cubFEvfArqYmYhs3IHF4?openTopSolutions=true', {
       waitUntil: 'domcontentloaded',
       timeout: 60000
     });
   }
 
-  console.log('Waiting for submissions list to render...');
+  console.log('Waiting for elements to load...');
   await page.waitForSelector('.submissions-list__item', { timeout: 20000 }).catch(() => {
     console.log('Submission items took long to load or are unavailable.');
   });
 
-  const filteredResults = await page.evaluate(() => {
+  // Extract page data: image URL, colors, and submissions
+  const scrapedData = await page.evaluate(() => {
+    // 1. Extract Target Image URL
+    const imgElement = document.querySelector('img.levelpage__target');
+    const targetImage = imgElement ? imgElement.src : null;
+
+    // 2. Extract Colors
+    const colorButtons = document.querySelectorAll('.colors-list__color');
+    const colors = Array.from(colorButtons)
+      .map(btn => btn.textContent.trim())
+      .filter(color => color.startsWith('#'));
+
+    // 3. Extract Submissions
     const items = document.querySelectorAll('.submissions-list__item');
-    return Array.from(items)
+    const submissions = Array.from(items)
       .map(item => {
         const codeElement = item.querySelector('.submissions-list__code');
         if (!codeElement) return null;
-
-        // Strips character count badge and separator (e.g., "91› " -> "")
+        // Strip character count badge and separator (e.g., "91› ")
         return codeElement.textContent.trim().replace(/^\d+›\s*/, '');
       })
       .filter(Boolean);
+
+    return {
+      targetImage,
+      colors,
+      submissions
+    };
   });
 
   await browser.close();
 
+  // Construct final JSON output matching required format
   const jsonData = {
     date: dateString,
-    targetUrl: page.url(),
-    submissions: filteredResults
+    target: scrapedData.targetImage,
+    colors: scrapedData.colors,
+    submissions: scrapedData.submissions
   };
 
   const outputDir = path.join(__dirname, 'data');
@@ -69,5 +87,5 @@ const { chromium } = require('playwright');
 
   const filePath = path.join(outputDir, `submissions_results_${dateString}.json`);
   fs.writeFileSync(filePath, JSON.stringify(jsonData, null, 2));
-  console.log(`Saved ${filteredResults.length} submission(s) to ${filePath}`);
+  console.log(`Successfully saved data to ${filePath}`);
 })();
