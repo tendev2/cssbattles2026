@@ -2,65 +2,95 @@ import fs from 'fs';
 import path from 'path';
 import { chromium } from 'playwright';
 
-const URL = "https://cssbattle.dev/daily?month=6&year=2023";
 const OUTPUT_DIR = "images";
 
-// Ensure the output directory exists
-if (!fs.existsSync(OUTPUT_DIR)) {
-    fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-}
+// Helper function to add a delay between requests
+const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 async function scrape() {
     const browser = await chromium.launch({ headless: true });
     const page = await browser.newPage();
 
-    console.log(`Navigating to ${URL}...`);
-    // Change wait_until to 'domcontentloaded' to avoid hanging on persistent background requests
-    await page.goto(URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
+    // Define start date (June 28, 2023) and today's date
+    const startDate = new Date(2023, 5, 28); // Month is 0-indexed (5 = June)
+    const today = new Date();
 
-    console.log("Waiting for calendar grid to render...");
-    // Wait specifically for the grid element or daily tiles to be visible
-    await page.waitForSelector('.PreviousDailyTargets-module__mEeCpq__calendarGrid, .target-tile--daily', { timeout: 30000 });
+    let currentDate = new Date(startDate.getFullYear(), startDate.getMonth(), 1);
 
-    // Extract image URLs and date text directly from the browser context
-    const targets = await page.$$eval('.target-tile--daily', tiles => {
-        return tiles.map(tile => {
-            const img = tile.querySelector('img.target-tile__image');
-            const pill = tile.querySelector('.target-top-info__pill');
-            return {
-                url: img ? img.src : null,
-                dateText: pill ? pill.textContent.trim() : null
-            };
-        }).filter(t => t.url && t.dateText);
-    });
+    while (currentDate <= today) {
+        const year = currentDate.getFullYear();
+        const month = currentDate.getMonth() + 1; // 1-12
+        const monthStr = String(month).padStart(2, '0'); // Ensures padded format like "06"
+        const url = `https://cssbattle.dev/daily?month=${month}&year=${year}`;
 
-    console.log(`Found ${targets.length} valid targets. Downloading images...`);
-
-    let count = 0;
-    for (const target of targets) {
+        console.log(`\nNavigating to ${url}...`);
         try {
-            // Clean up date text (e.g., "Jun 28 🥵" -> "2023_Jun_28.png")
-            const cleanDate = target.dateText.replace(/🥵/g, '').trim().replace(/\s+/g, '_');
-            const filename = `2023_${cleanDate}.png`;
-            const filepath = path.join(OUTPUT_DIR, filename);
+            await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
+            await page.waitForSelector('.target-tile--daily', { timeout: 15000 });
 
-            const response = await fetch(target.url);
-            if (response.ok) {
-                const buffer = Buffer.from(await response.arrayBuffer());
-                fs.writeFileSync(filepath, buffer);
-                console.log(`Saved: ${filename}`);
-                count++;
+            // Extract targets from the DOM
+            const targets = await page.$$eval('.target-tile--daily', tiles => {
+                return tiles.map(tile => {
+                    const img = tile.querySelector('img.target-tile__image');
+                    const pill = tile.querySelector('.target-top-info__pill');
+                    return {
+                        url: img ? img.src : null,
+                        dateText: pill ? pill.textContent.trim() : null
+                    };
+                }).filter(t => t.url && t.dateText);
+            });
+
+            console.log(`Found ${targets.length} targets for ${monthStr}/${year}. Processing...`);
+
+            // Define target folder path: images/YYYY/MM/
+            const monthDir = path.join(OUTPUT_DIR, String(year), monthStr);
+            if (!fs.existsSync(monthDir)) {
+                fs.mkdirSync(monthDir, { recursive: true });
+            }
+
+            for (const target of targets) {
+                try {
+                    // Clean up date text (e.g., "Jun 28 🥵" -> "Jun_28")
+                    const cleanDateText = target.dateText.replace(/🥵/g, '').trim().replace(/\s+/g, '_');
+                    const filename = `${cleanDateText}.png`;
+                    const filepath = path.join(monthDir, filename);
+
+                    // Duplicate check: Skip download if file already exists locally
+                    if (fs.existsSync(filepath)) {
+                        console.log(`Skipping (already exists): ${year}/${monthStr}/${filename}`);
+                        continue;
+                    }
+
+                    // Download image via fetch
+                    const response = await fetch(target.url);
+                    if (response.ok) {
+                        const buffer = Buffer.from(await response.arrayBuffer());
+                        fs.writeFileSync(filepath, buffer);
+                        console.log(`Saved: ${year}/${monthStr}/${filename}`);
+                    }
+                } catch (err) {
+                    console.error(`Failed to download image from ${target.url}:`, err.message);
+                }
             }
         } catch (err) {
-            console.error(`Failed to download ${target.url}:`, err);
+            console.error(`Failed to scrape ${url}:`, err.message);
+        }
+
+        // Move to the next month
+        currentDate.setMonth(currentDate.getMonth() + 1);
+
+        // Add a 3-second delay between month requests to prevent rate limiting
+        if (currentDate <= today) {
+            console.log("Waiting 3 seconds before next request...");
+            await sleep(3000);
         }
     }
 
     await browser.close();
-    console.log(`Successfully downloaded ${count} images to '${OUTPUT_DIR}/'.`);
+    console.log(`\nScraping complete! All images organized inside '${OUTPUT_DIR}/'.`);
 }
 
 scrape().catch(err => {
-    console.error("Scraping failed:", err);
+    console.error("Scraping workflow failed:", err);
     process.exit(1);
 });
