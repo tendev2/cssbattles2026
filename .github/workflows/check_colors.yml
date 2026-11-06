@@ -1,0 +1,39 @@
+name: Update JSON Colors on Push
+
+on:
+  push:
+    branches:
+      - main  # Change to 'master' if your default branch is master
+
+jobs:
+  update-colors:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # Grants permission to commit and push changes back to the repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run color extraction script
+        run: node script.js
+
+      - name: Commit and push changes if any
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Check if there are any modified files
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add data/
+            git commit -m "chore: auto-update JSON colors from submissions"
+            git push
+          else
+            echo "No color updates needed."
+          fi
