@@ -1,9 +1,9 @@
 {
   "name": "cssbattle-scraper",
   "version": "1.0.0",
-  "private": true,
+  "type": "module",
   "scripts": {
-    "scrape": "node scrape.js"
+    "start": "node get_images.js"
   },
   "dependencies": {
     "playwright": "^1.40.0"
