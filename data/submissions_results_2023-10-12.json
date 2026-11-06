@@ -4,12 +4,9 @@
   "colors": [
     "#FEFAE3",
     "#D4A469",
-    "#B17036",
     "#FEA5",
-    "#125",
     "#FD32",
-    "#FE94",
-    "#150"
+    "#FE94"
   ],
   "submissions": [
     "<style>&{>*{rotate:-45deg;box-shadow:-3q -56q,3q 56q;color:B17036;margin:0;border-radius:2in}border:solid 133q#FEFAE3;background:#D4A469",

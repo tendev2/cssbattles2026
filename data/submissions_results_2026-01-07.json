@@ -2,9 +2,7 @@
   "date": "2026-01-07",
   "target": "",
   "colors": [
-    "#2F434E",
-    "#CF6939",
-    "#110"
+    "#2F434E"
   ],
   "submissions": [
     "<style>*{background:#2F434E;color:CF6939;box-shadow:5vh 90q,65px 122q,122q 153q;width:110;height:70;*{margin:0 160",

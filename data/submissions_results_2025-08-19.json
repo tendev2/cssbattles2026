@@ -3,10 +3,9 @@
   "target": "",
   "colors": [
     "#E662",
-    "#DE6B67",
     "#E672",
     "#FCEBEB",
-    "#140"
+    "#DE6B67"
   ],
   "submissions": [
     "<style>*{margin:35%170;color:DE6B67;box-shadow:0 5ch,0 5pc,0 30vw,63Q 5vw,63Q -5vw,30vw 0;*{background:#e662;margin:0;scale:-1",

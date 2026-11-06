@@ -3,10 +3,9 @@
   "target": "",
   "colors": [
     "#7BCB",
-    "#FEFAE0",
     "#9CCCDB",
     "#FD12",
-    "#125"
+    "#FEFAE0"
   ],
   "submissions": [
     "<style>&{background:#7BCB;margin:25 75;border:dashed+53q;color:FEFAE0;box-shadow:inset 0 0 0 26q,0 0 0 2in",

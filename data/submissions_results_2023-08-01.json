@@ -2,9 +2,7 @@
   "date": "2023-08-01",
   "target": "",
   "colors": [
-    "#926927",
-    "#130",
-    "#F8B140"
+    "#926927"
   ],
   "submissions": [
     "<style>*{margin:130 100;border-radius:9in;box-shadow:0-5ch,0 5ch;color:F8B140}* *{background:#926927;margin:0;rotate:90deg"

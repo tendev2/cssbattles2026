@@ -4,9 +4,7 @@
   "colors": [
     "#243D83",
     "#6592CF",
-    "#F0CD48",
-    "#6593CF",
-    "#120"
+    "#F0CD48"
   ],
   "submissions": [
     "<dt><p><dt><p><style>dt{--b:#243D83;+*{--b:#6592CF;scale:.5}margin:22 32-142;-webkit-box-reflect:left -100%}p{margin:0-50;rotate:30deg;border-radius:5vw}*{padding:30;background:var(--b,#F0CD48",

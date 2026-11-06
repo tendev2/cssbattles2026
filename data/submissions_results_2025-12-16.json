@@ -3,10 +3,7 @@
   "target": "",
   "colors": [
     "#C06C88",
-    "#411C56",
-    "#B7D7CD",
-    "#150",
-    "#100"
+    "#411C56"
   ],
   "submissions": [
     " <p><p><style>&{background:#C06C88;>*{margin:70 80;background:#411C56;*{height:40;margin:1.5 90 40;color:B7D7CD;box-shadow:var(--b,74q 0),-74q 0,11q 5pc;+*{rotate:90deg;--b:-11q -5pc",

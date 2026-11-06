@@ -3,8 +3,7 @@
   "target": "",
   "colors": [
     "#FCDFEB",
-    "#8C80BB",
-    "#100"
+    "#8C80BB"
   ],
   "submissions": [
     "<img><img><style>*{background:radial-gradient(4em,#FCDFEB,39%,#8C80BB 0)0 58q}img{+*{scale:-1+1}border-radius:99%0%20%;padding:50;margin:62-47 0 77;font:3em'",

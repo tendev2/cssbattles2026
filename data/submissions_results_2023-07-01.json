@@ -3,9 +3,7 @@
   "target": "",
   "colors": [
     "#F7EC7D",
-    "#62306D",
-    "#110",
-    "#210"
+    "#62306D"
   ],
   "submissions": [
     "<p><p><style>*{color:#F7EC7D;background:var(--c,#62306d);position:fixed}p{top:64;left:110;padding:40;--c:#F7EC7D;box-shadow:0 80px,80px 80px}p+p{--c:#F7EC7D;border-radius:50%;top:64;left:210;padding:30;box-shadow:42q -42q 0 -20px"

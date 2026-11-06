@@ -6,10 +6,7 @@
     "#DDB231",
     "#F6B690",
     "#4B4BB6",
-    "#FFF",
-    "#180",
-    "#114",
-    "#189"
+    "#FFF"
   ],
   "submissions": [
     "<p a><p b><p c><style>*{position:fixed;background:var(--b,#1E1E1E)}[a]{border-radius:100px;padding:75 38;--b:#DDB231;left:70;top:59;box-shadow:92px 0#F6B690,184px 0#4B4BB6}[b]{border-radius:100px;padding:20;--b:#FFF;left:180;top:114;box-shadow:-92px 45px#FFF,104px -50px#4B4BB6,92px -38px#FFF}[c]{padding:5 20;--b:#DDB231;left:90;top:189"

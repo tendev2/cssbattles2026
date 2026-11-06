@@ -4,11 +4,7 @@
   "colors": [
     "#F88889",
     "#FFF",
-    "#433",
-    "#203",
-    "#100",
-    "#E007",
-    "#195"
+    "#E007"
   ],
   "submissions": [
     "<style>*{*{margin:0-137;--s:433;font:203%a;rotate:-.8rad}border-image:100%var(--s,212)/35vw 202q radial-gradient(5ch 80q,#F88889 42%,#fff 0%99%,#F88889",

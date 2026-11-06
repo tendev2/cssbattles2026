@@ -5,11 +5,7 @@
     "#ABEE",
     "#3E5AA9",
     "#FAE29E",
-    "#100",
-    "#B0C1F0",
-    "#3F5AA9",
-    "#110",
-    "#160"
+    "#B0C1F0"
   ],
   "submissions": [
     "<p><p><style>&{background:#abee;margin:42 92;*{background:radial-gradient(#3E5AA9 5em,#FAE29E 0)}p{+p{scale:-1}height:100;font:0'';clip-path:polygon(0 38q,30%1in,30%63q,132q 64q,63%0",

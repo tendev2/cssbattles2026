@@ -3,8 +3,7 @@
   "target": "",
   "colors": [
     "#ECDFEA",
-    "#602054",
-    "#100"
+    "#602054"
   ],
   "submissions": [
     "<dt><p><style>*{margin:-100 110;border:5vw solid;color:602054;background:#ECDFEA}&,p{>*{margin:40-40}margin:60;color:ECDFEA;background:#602054}p{margin:40-90;height:60",

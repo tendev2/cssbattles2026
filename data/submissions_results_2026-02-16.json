@@ -4,8 +4,7 @@
   "colors": [
     "#11092D",
     "#4A9A86",
-    "#FFCA00",
-    "#FFCA"
+    "#FFCA00"
   ],
   "submissions": [
     "<style>*{background:#11092d;margin:40 145 150;color:4A9A86;*{margin:30;color:FFCA00;--x:#4a9a86}box-shadow:15ex 0,-15ex 0,0 15ex var(--x,#ffca00",

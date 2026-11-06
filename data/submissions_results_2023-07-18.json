@@ -3,9 +3,7 @@
   "target": "",
   "colors": [
     "#926927",
-    "#F8B140",
-    "#100",
-    "#226"
+    "#F8B140"
   ],
   "submissions": [
     "<p><p><style>*+p,p{top:34}*{background:#926927}p{position:fixed;left:50;border:solid;border-width:100 0 100 124;border-color:#0000#0000#0000#f8b140}*+p{left:226;rotate:180deg"

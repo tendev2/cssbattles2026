@@ -3,8 +3,7 @@
   "target": "",
   "colors": [
     "#000",
-    "#FFF",
-    "#130"
+    "#FFF"
   ],
   "submissions": [
     "<style>*{color:fff;box-shadow:0 130px,0-130px,45vw 0,-45vw 0,0 0 0 5ch#000 inset;+*{margin:130 180",
