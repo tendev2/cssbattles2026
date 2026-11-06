@@ -1,0 +1,23 @@
+{
+  "date": "2023-10-09",
+  "target": "",
+  "colors": [
+    "#27E5",
+    "#8819F6",
+    "#230259",
+    "#B5D1FB",
+    "#120"
+  ],
+  "submissions": [
+    "<style>*{border-radius:1in;color:8819F6;margin:30 170;box-shadow:-64q 95q,64q -95q;+*{background:#27e5;margin:90 0;scale:1-1;color:230259",
+    "<style>*{background:#B5D1FB;border-radius:1in;margin:30 170;color:8819F6;box-shadow:-63q 95q,63q -95q;+*{margin:90 0;color:230259;scale:1-1",
+    "<style>*{background:#B5D1FB;border-radius:9cm;color:230259;margin:120 170;box-shadow:63q 95q,-63q -95q;>*{color:8819F6;margin:-90 0;scale:1-1",
+    "<style>&{background:#27e5;border:64q dotted#230259;margin:30 110;>*{color:8819F6;border-radius:9in;margin:-60 0;box-shadow:60px -95q,-60px 95q",
+    "<style>*{background:#B5D1FB;border-radius:9in;width:60;box-shadow:29mm 15ch,243q -15ch,243q 75vw;color:8819F6;>*{margin:-90 0 330;color:230259",
+    "<style>&{background:#B5D1FB;border:dotted+64q#230259;margin:30 110;>*{border-radius:1in;margin:-60 0;color:8819F6;box-shadow:60px -95q,-60px 95q",
+    "<style>&{margin:30 110;border:dotted 64q#230259;background:#B5D1FB;>*{margin:-66 0;border-radius:1in;box-shadow:60px -1in,-60px 1in;color:8819F6",
+    "<style>&{background:#B5D1FB;border:64q dotted#230259;margin:30 110;>*{border-radius:1in;margin:-50 0;box-shadow:60px -5pc#8819F6,-60px 5pc#8819F6",
+    "<body bgcolor=B5D1FB text=230259><p><p><style>p{border-radius:9in;border:32q solid;margin:30 222 8 102;box-shadow:30vw 60vh,30vw -2in;+*{color:8819F6;height:2in",
+    "<style>*{background:#B5D1FB;margin:30%170;border-radius:50q;color:#230259;box-shadow:-64q -95q,64q 95q;+*{margin:-90 0;color:#8819F6;box-shadow:-64q 95q,64q -95q"
+  ]
+}

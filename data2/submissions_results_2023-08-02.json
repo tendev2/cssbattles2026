@@ -1,0 +1,13 @@
+{
+  "date": "2023-08-02",
+  "target": "",
+  "colors": [
+    "#D86F45",
+    "#F5D6B4",
+    "#125"
+  ],
+  "submissions": [
+    "<body bgcolor=F5D6B4 style=outline:dotted+265q#D86F45;margin:125-9>",
+    "<style>*+*{background:radial-gradient(1q,#D86F45,17ex,#F5D6B4)0%50vh"
+  ]
+}

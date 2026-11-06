@@ -1,0 +1,19 @@
+{
+  "date": "2025-05-20",
+  "target": "",
+  "colors": [
+    "#F9DDC6",
+    "#282828"
+  ],
+  "submissions": [
+    "<style>*{border-block:5ch dashed#F9DDC6;margin:-40 0;rotate:90deg}&{margin:70 80;background:#282828",
+    "<STYLE>*{background:#282828;border-block:5ch dashed#F9DDC6;margin:-40 0;rotate:90deg}&{margin:70 80",
+    "<style>*{margin:-40 0;border-block:5ch dashed#F9DDC6;rotate:90deg}&{margin:70 80;background:#282828",
+    "<stylE>*{background:#282828;margin:70 80;border-block:dashed 5ch#F9DDC6;*{rotate:90deg;margin:-40 0",
+    "<style>*{margin:70 80;background:#282828;border-block:43q dashed#F9DDC6;rotate:90deg;*{margin:-40 0",
+    "<stYle>*{border-block:5ch dashed#F9DDC6;margin:-40 0;background:#282828;rotate:90deg}&{margin:70 80",
+    "<style>*{background:#282828;border-block:5ch dashed#f9ddc6;margin:70 80;*{margin:-40 0;rotate:90deg",
+    "<style>*{border-block:dashed 5ch#F9DDC6;background:#282828;margin:70 80;*{margin:-40 0;rotate:90deg",
+    "<style>*{border-block:5ch dashed#F9DDC6;margin:-40 0;background:#282828;rotate:90deg}&{margin:70 80"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2023-12-27",
+  "target": "",
+  "colors": [
+    "#6DA7FF",
+    "#FFF",
+    "#F2644D",
+    "#130"
+  ],
+  "submissions": [
+    "<p><style>p{--w:35 15 20;margin:0 130-90}*{>*{--w:10 0 80;border-color:6DA7FF#6DA7FF#FFF;margin:30 10-90}border:solid#F2644D;border-width:var(--w,90 100 180",
+    "<p><p><style>p{+p{--w:15 20 15 0;margin:9 5 0 115;rotate:90deg}border-color:6DA7FF#FFF;--w:5 0}*{>*{margin:30 0 0;--w:0 10}border:solid#F2644D;border-width:var(--w,90 100",
+    "<style>*{margin:0-10 90;background:conic-gradient(from 144deg,#FFF 20%,#6DA7FF 0)87%32q/32q 75%no-repeat#FFF}&{margin:90 110;box-shadow:inset 0 5ch#6DA7FF,0 0 0 9in#F2644D",
+    "<style>&{color:6DA7FF;margin:-50 25%210;background:#F2644D;box-shadow:0 32q#fff,0 53q 0-10px,0 138q 0-11q#fff;>*{border:solid 5vh;border-bottom:solid 5vw#fff;margin:85%140-95",
+    "<style>&{margin:130 110 90;color:F2644D;box-shadow:#6DA7FF 0-11q,0 10q 0 21q,0-31q 0 11q#FFF,0 0 0 9in;>*{margin:0 130 25;border:solid+16q#6DA7FF;border-bottom:solid+22q#0000",
+    "<p><style>*{border:25vw solid#F2644D;margin:-10 0;>*{margin:30 0-30;border-width:0 10;box-shadow:inset 0 11q#6DA7FF;>p{margin:0 130;border-width:45 15 20;border-color:6DA7FF#6DA7FF#FFF",
+    "<p><style>p{margin:0 20-55 130;--b:35 15 20}*{>*{margin:75%10-120;--b:10 0 80}margin:-30 25%180;background:#F2644D;border:solid#6DA7FF;border-bottom-color:fff;border-width:var(--b,0 0 30",
+    "<body bgcolor=F2645 text=6DA7FF><p><style>p{margin:0+130;border:solid;border-bottom:solid#fff;border-width:35+15+20}*{>*{margin:10;--s:85q inset,0-11q}margin:30%25%0;box-shadow:#fff 0 var(--s,-32q",
+    "<p><style>p{border:solid;border-color:fff#6DA7FF;border-width:0 15 20;margin:0 130;height:45}&{color:F2644D;margin:90 100;outline:2in solid;>*{margin:30 10 0;box-shadow:inset 0 11q#6DA7FF,0 11q 0 11q",
+    "<p><STYLE>&{margin:-90-80 0;border:45vw solid#F2644D;>*{margin:30 10-90;box-shadow:inset 0 11q#6DA7FF,inset 0 2in#FFF;>*{margin:0 130;border:solid;border-width:45 15 20;border-color:6DA7FF#6DA7FF#FFF"
+  ]
+}

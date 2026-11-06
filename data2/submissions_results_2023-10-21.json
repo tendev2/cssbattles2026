@@ -1,0 +1,29 @@
+{
+  "date": "2023-10-21",
+  "target": "",
+  "colors": [
+    "#0328A180",
+    "#25FC",
+    "#0024A17F",
+    "#0027A080",
+    "#0024A07E",
+    "#0125A1",
+    "#8092D0",
+    "#FFF",
+    "#284ED0",
+    "#250",
+    "#4F77FF"
+  ],
+  "submissions": [
+    "<style>*{border:dotted 25pc#0328a180;margin:50-900-900}&{margin:-51-1;border:solid 4cm#25fc",
+    "<style>*{margin:-51-1;border:var(--b,#25FC)solid 4cm;>*{margin:50-150-350;border-radius:50%;--b:#0024A17F",
+    "<style>*{>*{--b:#0027a080;margin:50-150-350;border-radius:9in}margin:-51-1;border:4cm solid var(--b,#25fc",
+    "<style>*{border:solid+50vh;color:#25FC;margin:-50+0;>*{border-radius:50%;margin:50-150-350;color:#0024A07E",
+    "<style>&{outline:solid+2in#25fc;margin:25%150;>*{border-radius:9in;border:solid+2in#0125a1;margin:50-150-350;opacity:.5",
+    "<style>*{>&{margin:25%150;--b:250%,#8092D0,50vw,#FFF}background:radial-gradient(1q at 50%var(--b,371q,#284ED0,212q,#25FC",
+    "<style>*{>*{--b:#8092D0,50vw,#FFF}margin:50 75;background:fixed radial-gradient(1q at 50%350px,var(--b,#284ED0,50vw,#25FC",
+    "<style>*{+*{margin:25%150;--x:250%,#8092D0,50vw,#fff}background:radial-gradient(1q at 50%var(--x,350px,#284ED0,50vw,#4F77FF",
+    "<STYLE>*{>*{margin:25%150;--a:250%,#8092D0 100%,#FFF}background:radial-gradient(50vw at 50%var(--a,350px,#284ED0 50vw,#25FC",
+    "<style>*{+*{--x:#8092D0,50vw,#FFF;margin:25%150}background:fixed radial-gradient(1q at 50%350px,var(--x,#284ED0,50vw,#4F77FF"
+  ]
+}

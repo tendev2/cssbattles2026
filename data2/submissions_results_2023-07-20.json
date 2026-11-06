@@ -1,0 +1,15 @@
+{
+  "date": "2023-07-20",
+  "target": "",
+  "colors": [
+    "#1038BF",
+    "#FFF",
+    "#4F77FF",
+    "#300",
+    "#160",
+    "#210"
+  ],
+  "submissions": [
+    "<p x><p a><p b><style>[b],[x]{width:40;background:#1038bf}[a]{width:300;height:160;background:#fff}[a]{margin:-390 42;clip-path:polygon(0%100%,0%44%,23%0,76%0,100%44%,100%100%)}[x]{height:40;border-radius:40px;margin:210 66;box-shadow:40px 0#1038bf,170px 0#1038bf,210px 0#1038bf,0 0 0 5in#4f77ff}[b]{margin:210 172;height:300;border-radius:42q;transform:translateZ(1px"
+  ]
+}

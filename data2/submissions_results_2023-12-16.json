@@ -1,0 +1,19 @@
+{
+  "date": "2023-12-16",
+  "target": "",
+  "colors": [
+    "#BA131A",
+    "#5E0000",
+    "#F58220"
+  ],
+  "submissions": [
+    "<style>&{background:radial-gradient(1q at top,#BA131A 53q,#5E0000 0 30vw,#F58220)0 5lh",
+    "<style>&{background:radial-gradient(1q at top,#BA131A,53q,#5E0000 0 15ch,#F58220)0 5lh",
+    "<style>&{background:radial-gradient(1q at top,#BA131A,53q,#5E0000 0 30vw,#F58220)0 95q",
+    "<style>&{background:radial-gradient(1q at 50%0,#BA131A 53q,0,#5E0000 30vw,#F58220)0 95q",
+    "<style>&{background:radial-gradient(1q at 50%0,#BA131A,53q,#5E0000 0 127q,#F58220)0 95q",
+    "<style>&{background:radial-gradient(1q at top,#BA131A,53q,#5E0000 0 30vw,#F58220)0 30vh",
+    "<style>&{background:0 5lh radial-gradient(1q at 50%0,#BA131A 53q,#5E0000 0 30vw,#F58220",
+    "<style>&{background:radial-gradient(1q at 50%0,#BA131A 53q,#5E0000 0 127q,#F58220)0 95q"
+  ]
+}

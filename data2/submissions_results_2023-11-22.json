@@ -1,0 +1,21 @@
+{
+  "date": "2023-11-22",
+  "target": "",
+  "colors": [
+    "#ECDFEA",
+    "#602054",
+    "#100"
+  ],
+  "submissions": [
+    "<dt><p><style>*{margin:-100 110;border:5vw solid;color:602054;background:#ECDFEA}&,p{>*{margin:40-40}margin:60;color:ECDFEA;background:#602054}p{margin:40-90;height:60",
+    "<dt><p><style>*,p{background:#602054;border:solid+5vw;color:ECDFEA;margin:60}*>*{margin:-40 90;background:#ECDFEA;color:602054}dt{margin:60-150}p{margin:-40 40;height:60",
+    "<dl><p><style>p,&{background:#602054;color:ECDFEA}*{margin:60;border:solid 5vw;>*{margin:40-40;background:#ECDFEA;color:602054;>*{margin:-100 110;>*{margin:40-90;height:60",
+    "<dt><p><style>*{>*{>*{margin:-100 110}margin:60-20}margin:40;box-shadow:inset 0 0 0 5vw#ECDFEA;border:solid 2.5ch#602054;background:#602054}p{margin:40-90;height:100;font:0'",
+    "<dl><p><style>p{margin:55-50;height:30;scale:2}*{+*,dl{outline:22q solid#602054;margin:-90 120}background:#602054;margin:60;border:2.5ch solid#ECDFEA;+*{margin:60-20;font:9q'",
+    "<a m><a m><a b><style>&{margin:60}a{position:absolute;inset:40px 170px}[m]{background:#ECDFEA;--b:#602054}a+a{inset:120px 40px}[b]{inset:106q}a,&{background:#602054;border:20px solid var(--b,#ECDFEA",
+    "<p><style>&{background:#602054;border:64q double;color:ECDFEA;margin:60}* *{margin:-70 50;padding:20;box-shadow:0 64q 0-5vw,0 5ch#602054,0-64q 0-5vw,0-5ch#602054;rotate:90deg}p{height:60;margin:30-20",
+    "<dl><style>*>*{box-shadow:-7.4em 0,-10.1em 0 0 5vw#602054,7.4em 0,10.1em 0 0 5vw#602054}&{>*{margin:20 58}color:ECDFEA;background:#602054;border:15vw double;margin:60}dl{rotate:90deg;height:20;font:9.7q'",
+    "<img><style>*{background:#602054;color:602054;box-shadow:var(--a,)-130px 0,130px 0,0 5em,0-5em}&{border:double 64q#ECDFEA;margin:60;>*{margin:0 50;>*{margin:20;color:ECDFEA;padding:10;--a:110px 0,-110px 0,0 60px,0-60px,",
+    "<style>&{margin:60;border:double 60px#ECDFEA;background:#602054;>*{-webkit-box-reflect:left -5vw;margin:20 70;color:602054;box-shadow:0-60px#ECDFEA,-5vw -5em,5vw -5em,0 60px#ECDFEA,-5vw 5em,5vw 5em,110px 0#ECDFEA,130px -5vw,130px 5vw"
+  ]
+}

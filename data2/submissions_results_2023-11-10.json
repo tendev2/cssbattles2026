@@ -1,0 +1,23 @@
+{
+  "date": "2023-11-10",
+  "target": "",
+  "colors": [
+    "#8C0052",
+    "#FBC3E4",
+    "#159",
+    "#8E4",
+    "#E294"
+  ],
+  "submissions": [
+    "<style>*{background:radial-gradient(1q,#0000,1em,#8C0052 0 6vw,#FBC3E4)5vw 5vw;>*{zoom:5;margin:10 20",
+    "<style>*{zoom:.25;margin:159 319;background:8e4%8e4%radial-gradient(#FBC3E4 80em,#8C0052 0 85%,#0000 0",
+    "<style>*{margin:25 50;background:radial-gradient(1q,#0000 5pc,#8C0052 0 40vh,#0000)25vw 25vw}&{background:#E294",
+    "<style>*{background:radial-gradient(#FBC3E4,20em,#8C0052 0 30em,#0000 0)25em 25em/100%;margin:25 50;>*{font:25%'",
+    "<style>*{background:#FBC3E4;margin:25 50;>*{background:radial-gradient(#0000,5em,#8C0052 0 85%,#0000 0)25vw 25vw",
+    "<style>*{background:#FBC3E4;margin:25 50;>*{background:radial-gradient(#0000 5em,#8C0052 0,85%,#0000 0)25vw 25vw",
+    "<style>*{background:radial-gradient(#0000 5pc,#8c0052 0 90pt,#0000 0)25vw 25vw}&{margin:42 92;background:#FBC3E4",
+    "<style>*{background:#e294;margin:25 50;+*{background:radial-gradient(1q,#0000 5em,#8C0052 0 30vw,#0000)25vw 25vw",
+    "<style>&{margin:42 92;background:#E294;>*{background:radial-gradient(1q,#0000 5pc,#8C0052 0 90pt,#0000)25vw 25vw",
+    "<style>*{background:#E294;>*{margin:50 100;background:radial-gradient(#0000,20vw,#8C0052 0 85%,#0000 0)-25vw -25vw"
+  ]
+}

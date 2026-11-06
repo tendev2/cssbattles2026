@@ -1,0 +1,22 @@
+{
+  "date": "2023-10-02",
+  "target": "",
+  "colors": [
+    "#8819F6",
+    "#230259",
+    "#27E5",
+    "#B5D1FB"
+  ],
+  "submissions": [
+    "<style>&{background:conic-gradient(from 135deg,#8819F6,25%,#0000 0)0-132q,radial-gradient(1q,#230259,106q,#27E5)0 26q",
+    "<style>&{background:conic-gradient(from 135deg,#8819F6 25%,#0000 0)0-132q,radial-gradient(1q,#230259,75pt,#B5D1FB)0 26q",
+    "<style>&{background:conic-gradient(from 135deg,#8819F6 25%,#0000 0)0-132q,radial-gradient(1q,#230259,106q,#B5D1FB)0 26q",
+    "<style>&{background:conic-gradient(from 135deg,#8819F6 25%,#0000 0)0-132q,radial-gradient(1q,#230259,25vw,#B5D1FB)0 26q",
+    "<style>* *{background:conic-gradient(from 135deg,#8819F6 25%,#0000 0)0 185q,radial-gradient(1q,#230259,25vw,#B5D1FB)0 26q",
+    "<style>&{background:conic-gradient(#0000,37.5%,#8819F6 0 62.5%,#0000 0)0-132q,radial-gradient(1q,#230259,106q,#27e5)0 26q",
+    "<style>*{background:radial-gradient(1q,#230259,106q,#27e5)0 26q;+*{background:#8819F6;clip-path:polygon(50%6%,11%177q,89%177q",
+    "<style>*{background:radial-gradient(1q,#230259,25vw,#B5D1FB)0 26q;>*{background:#8819F6;clip-path:polygon(50%18q,11%177q,89%177q",
+    "<style>* *{background:conic-gradient(from 135deg,#8819F6 90deg,#0000 0)0-125px,radial-gradient(2in,#230259 25vw,#B5D1FB 0)0 25px",
+    "<style>*+*{margin:-99%50 125;border:solid 50vh;border-color:8819F6#0000;background:radial-gradient(1q,#230259,25vw,#B5D1FB)50%26q"
+  ]
+}

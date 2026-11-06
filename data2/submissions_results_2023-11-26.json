@@ -1,0 +1,20 @@
+{
+  "date": "2023-11-26",
+  "target": "",
+  "colors": [
+    "#F58220",
+    "#FFF"
+  ],
+  "submissions": [
+    "<style>&{background:#F58220;>*{background:#fff;zoom:8.7;clip-path:polygon(27%0,73%0,99%22q,76%22q,50%0,24%22q,1%22q",
+    "<style>*{background:#F58220;>*{background:#FFF;margin:70;clip-path:polygon(27%0,73%0,96%100%,73%100%,50%0,27%100%,4%100%",
+    "<style>*{background:#F58220;>*{background:#fff;margin:70 80;clip-path:polygon(50%-100%,100%100%,75%100%,50%0,25%100%,0 100%",
+    "<style>&{background:#F58220;>*{margin:70+80+68;background:#fff;clip-path:polygon(25%0,0%99%,25%99%,50%0,75%99%,100%99%,75%0",
+    "<style>*{+*{margin:0 60;--c:37deg}margin:70 110;border-left:solid 64q#fff;background:#F58220;transform:skew(var(--c,-.36rad",
+    "<style>&{background:#F58220;margin:62;>*{background:#fff;clip-path:polygon(27%0%,73%0%,96%100%,73%100%,50%0%,27%100%,4%10pc",
+    "<style>*{background:#F58220;+*{margin:70 80;background:#FFF;clip-path:polygon(0%100%,25%100%,50%0,75%100%,100%100%,75%0,25%0",
+    "<body bgcolor=F5822><img><img><style>img{+*{scale:1-1}margin:62-42 0 102;padding:80 30;background:#FFF;transform:skew(-.36rad",
+    "<style>*{background:#F58220;+*{background:#fff;margin:70+80;clip-path:polygon(25%0,75%0,100%100%,75%100%,50%0,25%100%,0%100%)",
+    "<body bgcolor=F5822 style=border:solid+207q#FFF;clip-path:polygon(33.7%66q,64.5%65q,80%57%,64.5%57%,2in+16%,33.7%57%,76q+57%>"
+  ]
+}

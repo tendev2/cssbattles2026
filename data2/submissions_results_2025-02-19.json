@@ -1,0 +1,20 @@
+{
+  "date": "2025-02-19",
+  "target": "",
+  "colors": [
+    "#FDFFE9",
+    "#D95362"
+  ],
+  "submissions": [
+    "<body bgcolor=D9536 style=margin:40+125;border-left:solid+5em;border-right:dotted+53q text=FDFFE9>",
+    "<bODy bgColor=D9536 text=FDFFE9 style=margin:40+125;border-left:solid+5em;border-right:dotted+53q>",
+    "<body bgcolor=D9536 text=FDFFE9 style=margin:40+125;border-left:solid+5em;border-right:dotted+53q>",
+    "<body bgcolor=D9536 text=FDFFE9 style=border-left:solid+5em;border-right:dotted+53q;margin:40+125>",
+    "<body text=FDFFE9 bgcolor=D9536 style=border-left:solid+5pc;border-right:dotted+53q;margin:40+125>",
+    "<body bgcolor=D9536 text=FDFFE9 style=border-right:dotted+53q;border-left:solid+5pc;margin:40+125>",
+    "<BODY bgcolor=D9536 text=FDFFE9 style=margin:10%125;border-right:dotted+53q;border-left:solid+5pc>",
+    "<body text=FDFFE9 bgcolor=D9536 style=margin:40+125;border-right:dotted+53q;border-left:solid+85q>",
+    "<body bgcolor=D95362 text=FDFFE9 style=border-right:dotted+53q;margin:10%125;border-left:solid+85q>",
+    "<body bgcolor=D95362 text=FDFFE9 style=margin:10%125;border-left:solid+5em;border-right:dotted+53q>"
+  ]
+}

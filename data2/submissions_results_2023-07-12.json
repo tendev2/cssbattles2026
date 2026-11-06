@@ -1,0 +1,11 @@
+{
+  "date": "2023-07-12",
+  "target": "",
+  "colors": [
+    "#F5D6B4",
+    "#DD6B4D"
+  ],
+  "submissions": [
+    "<style>*{background:conic-gradient(from -45deg at 192px 243px,#0000,#0000 90deg,#F5D6B4 90deg),radial-gradient(circle at 192px 243px,#dd6b4d 0%16.5%,#F5D6B4 16.5%23%,#dd6b4d 23%32.75%,#F5D6B4 32.75%39%,#dd6b4d 39%48.75%,#F5D6B4 48.75%55.25%,#dd6b4d 55.25%65%,#F5D6B4 0)"
+  ]
+}

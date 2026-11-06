@@ -1,0 +1,20 @@
+{
+  "date": "2024-01-03",
+  "target": "",
+  "colors": [
+    "#92278F",
+    "#FFF579"
+  ],
+  "submissions": [
+    "<style>&{background:#92278F;color:FFF579;border-inline:double 96q;margin:75 95;>*{margin:30-1 90;box-shadow:-63q 64q,63q 0,0 32q",
+    "<style>&{background:#92278F;color:FFF579;margin:75 95;border-inline:5lh double;>*{margin:30-1 90;box-shadow:64q 0,0 32q,-64q 64q",
+    "<style>&{margin:75 95;border-inline:double 96q;background:#92278F;color:FFF579;>*{margin:30-2 90;box-shadow:64q 0,0 32q,-64q 64q",
+    "<style>&{background:#92278F;border-inline:5lh double;color:FFF579;margin:75 95;>*{margin:30-5 90;box-shadow:0 32q,64q 0,-64q 64q",
+    "<style>&{background:#92278F;margin:75 95;color:FFF579;border-inline:double 5lh;>*{margin:30-5 90;box-shadow:0 32q,63q 0,-63q 60px",
+    "<style>&{background:#92278F;color:FFF579;border-inline:double 90px;margin:75 95;>*{margin:30-5 90;box-shadow:63q 0,0 32q,-63q 60px",
+    "<style>&{margin:75 95;border-inline:90px double;color:FFF579;>*{margin:30 0 90;box-shadow:-60px 60px,0 32q,60px 0;background:#92278F",
+    "<p><style>p{height:30;box-shadow:60px 32q,0 64q,-60px 5lh}&{color:FFF579;background:#92278F;>*{margin:75 95;border-inline:double 5lh",
+    "<STYLE>&{background:#92278F;color:FFF579;margin:75 95;border-inline:double 5lh;>*{margin:60-1;box-shadow:inset 0 1in,63q -32q,-63q 32q",
+    "<style>&{background:#92278F;border-inline:double+90px;margin:75 95;color:FFF579;>*{margin:60-5;box-shadow:60q -32q,-60q 32q,inset 2in 0"
+  ]
+}

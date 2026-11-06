@@ -1,0 +1,21 @@
+{
+  "date": "2026-01-05",
+  "target": "",
+  "colors": [
+    "#8647E6",
+    "#EFEB99",
+    "#130"
+  ],
+  "submissions": [
+    "<StYle>*{background:conic-gradient(var(--b,#8647E6)75%,#EFEB99 0)4px 0/7em 85vw;*{margin:130 56 0;--b:#0000",
+    "<style>*{background:conic-gradient(var(--x,#8647e6)75%,#efeb99 0)4px 0/7pc 85vw;*{--x:#0000;margin:130 56 0",
+    "<style>*{background:conic-gradient(#efeb99 25%,var(--b,#8647e6)0)60px 0/7pc 85vw;*{margin:130 56 0;--b:#0000",
+    "<style>*{background:conic-gradient(at 50%180q,#EFEB99 25%,var(--n,#8647E6)0)60px/7em;*{margin:130 56 0;--n:#0000",
+    "<style>*{background:conic-gradient(at 7ch 180q,var(--b,#8647e6)75%,#efeb99 0)4px/7pc;*{margin:130 56 0;--b:#0000",
+    "<style>*{background:conic-gradient(at 7ch 180q,#EFEB99 25%,var(--t,#8647E6)0)60px/7em;*{margin:130 56 0;--t:#0000",
+    "<style>*{*{margin:130 56 0;--g:#0000}background:conic-gradient(at 7ch 180Q,#efeb99 25%,var(--g,#8647e6)0)60px/7pc",
+    "<style>*{*{--c:#0000;margin:130 14%0}background:60px/7pc conic-gradient(at 7ch 180Q,#efeb99,25%,var(--c,#8647e6)0",
+    "<style>*{*{margin:130 60 0;--a:0/40%}background:conic-gradient(at 7ch 180q,#0000 75%,#efeb99 0)var(--a,4px/28%#8647e6",
+    "<p><stylE>*{margin:0 60;*{margin:0 112}background:#8647E6;width:56;height:130;color:EFEB99;box-shadow:0-4vw 0 7ch,0 170px"
+  ]
+}

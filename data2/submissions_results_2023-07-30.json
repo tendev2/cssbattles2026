@@ -1,0 +1,14 @@
+{
+  "date": "2023-07-30",
+  "target": "",
+  "colors": [
+    "#998235",
+    "#0B2429",
+    "#209",
+    "#169",
+    "#210"
+  ],
+  "submissions": [
+    "<p a><p b><p c><style>*,[c]{background:#998235}[a],[c]{transform:skew(45deg)}p{background:#0b2429}[b],[c]{width:28}[a]{margin:50 154;width:85;height:209}[c]{margin:71 182;height:169}[b]{margin:-260 173;height:210;transform:skew(-45deg"
+  ]
+}

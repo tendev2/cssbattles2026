@@ -1,0 +1,11 @@
+{
+  "date": "2023-08-03",
+  "target": "",
+  "colors": [
+    "#FFF",
+    "#4F77FF"
+  ],
+  "submissions": [
+    "<style>*{background:radial-gradient(9%22q,#FFF,132q,#0000)0-16q,conic-gradient(from 36deg,#4F77FF,80%,#FFF 0)0 96q"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2025-08-19",
+  "target": "",
+  "colors": [
+    "#E662",
+    "#DE6B67",
+    "#E672",
+    "#FCEBEB",
+    "#140"
+  ],
+  "submissions": [
+    "<style>*{margin:35%170;color:DE6B67;box-shadow:0 5ch,0 5pc,0 30vw,63Q 5vw,63Q -5vw,30vw 0;*{background:#e662;margin:0;scale:-1",
+    "<STYLE>*{color:DE6B67;margin:35%170;box-shadow:0 5ch,0 5pc,0 30vw,64q -5vw,30vw 0,64q 5vw;*{background:#E672;margin:0;scale:-1",
+    "<style>*{color:DE6B67;margin:35%170;box-shadow:0 5ch,0 5em,0 30vw,63q 5vw,30vw 0,-63q 5vw;*{background:#E662;margin:0;scale:-1",
+    "<stylE>*{margin:35%170;color:DE6B67;box-shadow:63q -5vw,30vw 0,63q 5vw,0 5ch,0 5pc,0 30vw;*{background:#E662;margin:0;scale:-1",
+    "<style>*{margin:35%170;box-shadow:0 5ch,0 5em,0 30vw,64q -5vw,64q 5vw,30vw 0;color:DE6B67;*{margin:0;scale:-1;background:#E662",
+    "<style>*{background:#FCEBEB;margin:35%170;color:DE6B67;box-shadow:127q 0,63q -5vw,63q 5vw,0 42q,0 85q,0 127q;*{margin:0;scale:-1",
+    "<style>*{background:#fcebeb;margin:140 170;color:de6b67;box-shadow:0-30vw,0-5pc,0-5ch,64Q -5vw,30vw 0,64Q 5vw;*{margin:0;scale:-1",
+    "<style>*{background:#FCEBEB;margin:35%170;color:#DE6B67;box-shadow:30vw 0,64q 21q,-64q 21q,0 42q,0 85q,0 30vw;*{margin:0;scale:-1",
+    "<stYle>*{margin:35%230 35%110;color:DE6B67;box-shadow:0 5vw,0-5vw,-64Q 0,64Q 5ch,64Q 5pc,64Q 30vw;*{background:#E662;scale:-1;margin:0-120 0 120"
+  ]
+}

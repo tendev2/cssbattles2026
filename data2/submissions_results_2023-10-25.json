@@ -1,0 +1,21 @@
+{
+  "date": "2023-10-25",
+  "target": "",
+  "colors": [
+    "#0D004C",
+    "#B8B7CC",
+    "#15E3"
+  ],
+  "submissions": [
+    "<body bgcolor=0D004C text=B8B7CC><p><p><p><style>p{height:30;box-shadow:30vw 0,0 32q;margin:60 192-30 72",
+    "<body bgcolor=0D004C text=B8B7CC><p><p><p><style>p{height:30;margin:60 192-30 72;box-shadow:30vw 0,0 32q",
+    "<body bgcolor=0D004C text=B8B7CC><p><p><p><style>p{margin:60 192-30 72;height:30;box-shadow:0 32q,30vw 0",
+    "<style>*{background:repeating-conic-gradient(#B8B7CC,25%,#0D004C 0 50%)0/100%.05ch;margin:30 40;>*{font:15e3%a",
+    "<style>*{margin:30 40;background:repeating-conic-gradient(#B8B7CC,25%,#0000 0 50%)0/100%max(7in - 340%)#0D004C",
+    "<style>*{margin:30 40;background:repeating-conic-gradient(#B8B7CC 0 25%,#0000 0 50%)0/100%min(15pc - 100%)#0D004C",
+    "<style>*{background:#0D004C;+*{margin:60 80;background:repeating-conic-gradient(#B8B7CC,25%,#0000 0 50%)0/100%60px",
+    "<STYLE>*{background:#0D004C;>*{margin:60 80;background:repeating-conic-gradient(#B8B7CC,25%,#0000 0 50%)0/100%60px",
+    ".<style>*{>*{margin:30 120-30-120}background:#0D004C;margin:30 80 240 200;box-shadow:0 32q,0 95q,0 159q;color:B8B7CC",
+    "<body bgcolor=0D004C text=B8B7CC style=margin:60+200+210+80;box-shadow:0+32q,0+95q,0+159q,90pt+0,90pt+60px,90pt+90pt>"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2023-08-11",
+  "target": "",
+  "colors": [
+    "#F7EC7D",
+    "#62306D"
+  ],
+  "submissions": [
+    "<style>*{background:conic-gradient(#F7EC7D,50%,#62306D 0)50in}*+*{clip-path:circle(106q",
+    "<style>*{background:conic-gradient(#F7EC7D 50%,#62306D 0)50in}* *{clip-path:circle(25vw",
+    "<style>*{background:conic-gradient(#F7EC7D 50%,#62306D 0)50in}*>*{clip-path:circle(106q",
+    "<style>*{background:conic-gradient(#F7EC7D 50%,#62306D 0)50in}*+*{clip-path:circle(106q",
+    "<style>*+*{scale:-.705;clip-path:circle()}*{background:conic-gradient(#F7EC7D 50%,#62306D 0",
+    "<style>*{background:conic-gradient(#F7EC7D 50%,#62306D 0)}* *{scale:-1;clip-path:circle(25vw",
+    "<style>*{background:conic-gradient(#F7EC7D 50%,#62306D 0)}* *{scale:-1;clip-path:circle(75pt",
+    "<style>*{background:conic-gradient(#F7EC7D 50%,#62306D 0)}*>*{scale:-1;clip-path:circle(106q",
+    "<style>* *{scale:-.52.705;border-radius:50%}*{background:conic-gradient(#F7EC7D 50%,#62306D 0",
+    "<STYLE>*>*{scale:-.52.705;border-radius:50%}*{background:conic-gradient(#F7EC7D 50%,#62306D 0"
+  ]
+}

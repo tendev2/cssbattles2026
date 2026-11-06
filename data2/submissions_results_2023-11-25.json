@@ -1,0 +1,22 @@
+{
+  "date": "2023-11-25",
+  "target": "",
+  "colors": [
+    "#92B6C7",
+    "#004563",
+    "#004562",
+    "#DEFA"
+  ],
+  "submissions": [
+    "<style>*{border:solid+32q#92B6C7;border-radius:99em 99em 65q 0;margin:60 110 140;>*{margin:40 75-110-30;background:#004563;border-width:0 30 30 0;-webkit-box-reflect:right 30px;font:0'",
+    "<style>*{+*{margin:70 75-110-30;--x:0 0 64q 0;border-width:0 30 30 0;-webkit-box-reflect:right 32q}border:32q solid#92B6C7;background:#004563;margin:60 110 140;border-radius:var(--x,2in 2in 0 0",
+    "<style>*{>*{-webkit-box-reflect:left 32q;margin:40-30-110 75;border-width:0 0 30 30;--r:0 64q;background:#004563}margin:60 110 140;border:solid 32q;color:92B6C7;border-radius:var(--r,9in 9in 0 0",
+    "<style>*{background:#004563;border:solid 32q#92B6C7;margin:60 110 140;border-radius:var(--r,10em 10em 0 0);-webkit-box-reflect:right 32q;>*{margin:70 75-110-30;border-width:0 30 30 0;--r:0 0 64q",
+    "<style>*{background:#004563;border:solid 32q#92B6C7;border-radius:9in 9in 0 0;margin:60 110 140;>*{margin:0-126-110 75;border-radius:63q;-webkit-box-reflect:left 32q;clip-path:inset(74q 1in 0-35vh",
+    "<style>*{+*{margin:-20 22.5;border-width:0 0 30 30;--r:0 0 0 64q;translate:52px 5lh;-webkit-box-reflect:left 32q}background:#004562;border:32q solid#DEFA;margin:60 110 140;border-radius:var(--r,9in 9in 0 0",
+    "<style>*{margin:60 110 140;border:32q solid#92B6C7;border-radius:8em 8em 0 0;>*{scale:-1;margin:70 75-110-100;background:#004563;border-bottom:0;font:47%a;-webkit-box-reflect:left 32q;clip-path:inset(0 74q 0-35vh",
+    "<p><style>p{float:left;padding:27q+24q;margin:69+75;border-radius:0+63q;border-width:0+0+30+30;-webkit-box-reflect:left 32q}*>*{background:#004563;margin:60+110+140;border-radius:1in+1in+0+0;border:32q solid#92B6C7",
+    "<p><style>*{background:#004563;margin:60+110;height:40;border:solid+30px#92B6C7;border-radius:30vw+30vw+0+0}*>*{margin:70-30;width:45;height:50;border-width:0+30+30+0;border-radius:0+0+77%}p{scale:-1+1;translate:45vh",
+    "<body bgcolor=00456 text=92b6c7><p><p><style>p{border:32q solid;border-radius:95q 95q 0 0;padding:20;margin:60 102;+p{border-width:0 0 30 30;border-radius:0 0 0 63q;padding:50 0 0 45;margin:-60 207;-webkit-box-reflect:left 32q"
+  ]
+}
