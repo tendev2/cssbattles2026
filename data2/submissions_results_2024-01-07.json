@@ -3,8 +3,7 @@
   "target": "",
   "colors": [
     "#5E0000",
-    "#F89F65",
-    "#0000"
+    "#F89F65"
   ],
   "submissions": [
     "<style>*{background:conic-gradient(#5E0000,50%,#F89F65 0)0/50em;>*{margin:87 90 93;font:5%a;transform:skewy(16rad",

@@ -3,8 +3,7 @@
   "target": "",
   "colors": [
     "#6D62BA",
-    "#A1E6E4",
-    "#0000"
+    "#A1E6E4"
   ],
   "submissions": [
     "<body text=A1E6E4 bgColor=6D62BA style=margin:105+155;box-shadow:0+0+0+32q#6D62BA,0-64q,64q+0,-64q+0,0+64q;border-top:dotted+96q>",

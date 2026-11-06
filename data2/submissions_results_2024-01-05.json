@@ -3,8 +3,7 @@
   "target": "",
   "colors": [
     "#FDDDCE",
-    "#302954",
-    "#0000"
+    "#302954"
   ],
   "submissions": [
     "<style>*{+*{--s:8 15/50%}border-image:radial-gradient(#FDDDCE 94q,#302954 0 95%,#0000 0)var(--s,49.8%/4cm/0 5vw",
