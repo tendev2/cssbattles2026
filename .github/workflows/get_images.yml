@@ -1,0 +1,38 @@
+name: Scrape CSSBattle Daily Images (Node.js)
+
+on:
+  workflow_dispatch: # Allows manual trigger from the GitHub Actions tab
+  schedule:
+    - cron: '0 0 1 * *' # Optional monthly schedule
+
+permissions:
+  contents: write # Required to push code and images back to the repository
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: |
+          npm install
+          npx playwright install chromium
+          npx playwright install-deps chromium
+
+      - name: Run Scraper Script
+        run: node get_images.js
+
+      - name: Commit and Push Images
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add images/
+          git diff --staged --quiet || git commit -m "chore: update CSSBattle daily images via get_images.js"
+          git push
