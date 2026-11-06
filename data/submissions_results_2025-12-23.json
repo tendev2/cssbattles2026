@@ -1,0 +1,22 @@
+{
+  "date": "2025-12-23",
+  "target": "",
+  "colors": [
+    "#2D3464",
+    "#D95362",
+    "#DACFA3",
+    "#118"
+  ],
+  "submissions": [
+    "<stYle>&{*{margin:118 190;scale:4 5;border:11Q dashed#2d3464}background:0/50%radial-gradient(1Q,#d95362,5ch,#dacfa3",
+    "<style>&{*{margin:118 190;border:11q dashed#2d3464;scale:4 5}background:0/50%radial-gradient(1Q,#d95362 5ch,#dacfa3",
+    "<style>&{*{border:dashed 53q#2D3464;margin:-10 150;scale:.8 1}background:0/50%radial-gradient(1q,#D95362 5ch,#DACFA3",
+    "<style>&{margin:-81 60;border:5pc dotted#D95362;background:#DACFA3;*{margin:-9 10;border:53q dashed#2D3464;scale:.8 1",
+    "<style>&{*{border:5ch dashed#2D3464;margin:22 160;scale:1 1.25}background:0/50%radial-gradient(1q,#D95362 5ch,#DACFA3",
+    "<style>&{*{border:5ch dashed#2d3464;margin:22 160;scale:1 1.25}background:0/50%radial-gradient(1q,#d95362 5ch,#dacfa3",
+    "<style>&{background:radial-gradient(1q,#D95362 5ch,#DACFA3)0/50%;*{border:5ch dashed#2D3464;margin:22 160;scale:1 1.25",
+    "<style>&{background:radial-gradient(1Q,#d95362 5ch,#DACFA3)0/50%;*{border:5ch dashed#2D3464;margin:22 160;scale:1 1.25",
+    "<style>*{*{--y:4Q 93Q;scale:.21 1.25;--c:#2d3464}background:radial-gradient(1Q,var(--c,#d95362)5ch,#dacfa3)0/var(--y,50%",
+    "<style>&{border:5ch dashed#2D3464;margin:22 160;scale:1 1.25;background:0/50vw 114%radial-gradient(#D95362 5ch,#DACFA3 0"
+  ]
+}

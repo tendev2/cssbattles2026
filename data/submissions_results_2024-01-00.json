@@ -1,0 +1,21 @@
+{
+  "date": "2024-01-00",
+  "target": "",
+  "colors": [
+    "#7BAFDE",
+    "#6867D4",
+    "#000039"
+  ],
+  "submissions": [
+    "<img><img><style>&{background:#7BAFDE;margin:92}img{+*{scale:1-1;color:39}border:solid 53q;color:6867D4;transform:skewy(27deg",
+    "<body bgcolor=7BAFE text=6867D4><img><img><style>img{+*{color:39;--x:-.5}border:solid+53q;transform:matrix(1,var(--x,.5),0,1,92,92",
+    "<body bgcolor=7BAFE text=6867D4><img><img><style>img{+*{color:39;scale:1-1}margin:92-92 0 92;border:53q solid;transform:skewY(26deg",
+    "<img><img><style>&{margin:92;background:#7BAFDE}img{+*{scale:1-1;background:#000039}padding:50;background:#6867D4;transform:skewY(.46rad",
+    "<style>*{background:#7BAFDE;>*{background:conic-gradient(#000039 50%,#6867D4 0);clip-path:polygon(24%71q,50%41%,76%71q,76%59%,50%230q,24%59%",
+    "<p><p><style>*{background:var(--i,#7BAFDE)}&{margin:76 92}p{padding:50;--i:#6867D4;float:left;transform:skewY(26deg);+p{--i:#000039;scale:1-1",
+    "<style>*{background:#7bafde;>*{background:conic-gradient(#000039 50%,#6867d4+0);clip-path:polygon(50%41%,76%+71q,76%+59%,50%230q,24%59%,24%71q",
+    "<img><img><style>&{background:#7BAFDE}img{+*{border-color:39;margin:-50%192;scale:1-1}border:solid+53q#6867D4;margin:24%92;transform:skewY(26deg",
+    "<body bgcolor=7BAFE style=border-inline:solid+2in;border-inline-color:#6867D4#000039;clip-path:polygon(50%41%,76%71q,76%177q,50%230q,24%177q,24%71q>",
+    "<body bgcolor=7bafe style=border:solid;border-color:#0000#000039+0#6867D4;border-width:50+100;margin:75+100+0;clip-path:polygon(50%159q,-99%0,200%0>"
+  ]
+}

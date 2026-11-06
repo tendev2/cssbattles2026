@@ -1,0 +1,22 @@
+{
+  "date": "2024-02-02",
+  "target": "",
+  "colors": [
+    "#C17D1B",
+    "#FBBA24",
+    "#5C3921",
+    "#100"
+  ],
+  "submissions": [
+    "<body bgcolor=5C392 text=C17D1B><p><p m><p><style>p{+p{border-width:20;font:8%a}margin:50 92-40;border:53q solid;border-radius:9em 9em 30q 30q}[m]{color:FBBA24;font:3q'",
+    "<body bgcolor=5C392 text=C17D1B><p><p style=color:FBBA24;--r:><p><style>p{+p{font:40%a;--r:9in 9in}border:6.3ch solid;margin:50 92-40;border-radius:3in 3in var(--r,4pc 4pc",
+    "<body bgcolor=5C392 text=C17D1B><p a><p><p><style>p{margin:50 92-40;border:2.5ch solid;border-radius:var(--r,2pc 2pc)6pc 6pc}[a]{+p{color:FBBA24;--r:}--r:5in 5in;font:5ch'",
+    "<p><p a><p><style>&{background:#5C3921;margin:40 82}p{+p{font:40%/20%a}border:solid+6.3ch;margin:10;color:C17D1B;border-radius:8lh 8lh 32q 32q}[a]{color:FBBA24;font:40%/4q'",
+    "<p><p b><p><style>*{margin:25 45;background:#5C3921}p{+p{height:40;font:8%a}margin:10;background:#C17D1B;height:100;border-radius:9em 9em 30q 30q}[b]{background:#FBBA24;font:20%a",
+    "<p><p a><p><style>&{margin:40;background:#5C3921;color:C17D1B}[a]{--r:9in;color:FBBA24}p{+p{--r:11q 9q 32q 32q;font:40%x}margin:10 52;border:solid 6.3ch;border-radius:var(--r,25vw 25vw 5vw 5vw",
+    "<p><p a><p><style>p{+p{height:40;--b:42q 42q 1in 1in}margin:10 52;height:100;--c:#C17D1B}[a]{--c:#FBBA24;--b:1in}&{margin:40}*{background:var(--c,#5C3921);border-radius:var(--b,1in 1in 20q 20q",
+    "<p><p a><p><style>[a]{--b:#FBBA24}*{background:var(--b,#5C3921);margin:7%45}p{--b:#C17D1B;height:100;margin:10;border-radius:var(--a,88q 88q 1em 1em);+p{height:40;--a:9in;+p{--a:1em 1em 53q 53q",
+    "<p><p><p><style>*{background:var(--b,#5C3921)}p{height:100;--b:#C17D1B;margin:50 92-40;border-radius:var(--o,25vw 25vw 5vw 5vw);+p{height:40;--b:#FBBA24;--o:53q;+p{--b:#C17D1B;--o:5vw 5vw 64q 64q",
+    "<p><p><p><style>*{background:var(--b,#5C3921)}p{height:100;--b:#C17D1B;margin:50 92 60;border-radius:var(--a,1in 1in 5vw 5vw);+p{height:40;--a:5ch 5ch 1in 1in;+p{--b:#FBBA24;margin:-150 92;--a:5ch"
+  ]
+}

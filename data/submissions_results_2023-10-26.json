@@ -1,0 +1,21 @@
+{
+  "date": "2023-10-26",
+  "target": "",
+  "colors": [
+    "#892626",
+    "#C0B932",
+    "#100"
+  ],
+  "submissions": [
+    "<body bgcolor=892626 text=C0B93 style=rotate:45deg;margin:25%150;box-shadow:53q+0,-53q+0,0+53q,0-53q>",
+    "<body bgcolor=892626 text=C0B93 style=margin:25%150;rotate:45deg;box-shadow:0+53q,0-53q,53q+0,-53q+0>",
+    "<body bgColor=892626 text=C0B93 style=box-shadow:53q+0,0+53q,-53q+0,0-53q;rotate:45deg;margin:25%150>",
+    "<body bgcolor=892626 text=C0B93 style=rotate:45deg;margin:25%150;box-shadow:0-53q,53q+0,0+53q,-53q+0>",
+    "<body style=margin:25%150;rotate:45deg;box-shadow:-53q+0,0+53q,53q+0,0-53q bgcolor=892626 text=C0B93>",
+    "<body bgcolor=892626 text=C0B93 style=margin:25%150;rotate:45deg;box-shadow:-53q+0,53q+0,0-53q,0+53q>",
+    "<body bgcolor=892626 text=C0B932 style=margin:25%150;rotate:45deg;box-shadow:53q+0,-53q+0,0+53q,0-53q>",
+    "<BODY bgcolor=892626 text=C0B932 style=rotate:45deg;margin:25%150;box-shadow:0-53q,53q+0,0+53q,-53q+0>",
+    "<body bgcolor=892626 text=C0B932 style=box-shadow:53q+0,-53q+0,0+53q,0-53q;margin:25%150;rotate:45deg>",
+    "<body bgcolor=892626 text=C0B93 style=rotate:45deg;margin:100+150;box-shadow:53q+0,-53q+0,0+53q,0-53q>"
+  ]
+}

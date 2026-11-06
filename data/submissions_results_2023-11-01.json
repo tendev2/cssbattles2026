@@ -1,0 +1,21 @@
+{
+  "date": "2023-11-01",
+  "target": "",
+  "colors": [
+    "#125",
+    "#722E",
+    "#FFFCDF"
+  ],
+  "submissions": [
+    "<body bgcolor=81313 style='margin:125 175;box-shadow:0 0 0 32q,-5pc -5pc,5pc -5pc,5pc 5pc,-5pc 5pc'text=FFFCE>",
+    "<body style='margin:125+175;box-shadow:0 0 0 32q,-5em -5em,5em -5em,-5em 5em,5em 5em'bgcolor=81313 text=FFFCE>",
+    "<body style='margin:125 175;box-shadow:0 0 0 32q,-5em -5em,5em -5em,-5em 5em,5em 5em'bgcolor=81313 text=FFFCE>",
+    "<STYLE>&{background:#722E;color:FFFCDF;margin:125 175;box-shadow:0 0 0 32q,-5pc -5pc,5pc -5pc,-5pc 5pc,5pc 5pc",
+    "<style>&{background:#722E;margin:125 175;box-shadow:0+0+0+32q,-5pc -5pc,5pc 5pc,5pc -5pc,-5pc 5pc;color:FFFCDF",
+    "<body style='margin:125 175;box-shadow:0 0 0 32q,5pc 5pc,-5pc 5pc,5pc -5pc,-5pc -5pc'bgcolor=81313 text=FFFCE>",
+    "<style>&{background:#722E;margin:125 175;color:FFFCDF;box-shadow:0 0 0 32q,-5em -5em,5em -5em,-5em 5em,5em 5em",
+    "<body bgcolor=81313 style='margin:125+175;box-shadow:0 0 0 32q,5pc 5pc,-5pc 5pc,-5pc -5pc,5pc -5pc'text=FFFCE>",
+    "<body bgcolor=81313 style='margin:125 175;box-shadow:0 0 0 32q,5em 5em,5em -5em,-5em 5em,-5em -5em'text=fffce>",
+    "<style>&{background:#722E;color:FFFCDF;margin:125 175;box-shadow:0+0+0+32q,85q+85q,85q -85q,-85q -85q,-85q+85q"
+  ]
+}

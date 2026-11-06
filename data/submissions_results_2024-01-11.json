@@ -1,0 +1,19 @@
+{
+  "date": "2024-01-11",
+  "target": "",
+  "colors": [
+    "#92278F",
+    "#FFF579"
+  ],
+  "submissions": [
+    "<style>*{background:#92278F;border:5vw solid#FFF579;border-radius:64q;margin:30 55-20}&{margin:65",
+    "<style>*{background:#92278F;border:solid+5vw#FFF579;border-radius:64q;margin:30+55-20}&{margin:65",
+    "<style>*{margin:30 55-20;border:solid 5vw#FFF579;border-radius:64q;background:#92278F}&{margin:65",
+    "<style>*{background:#92278F;border-radius:63q;border:solid+5vw#FFF579;margin:30 55-20}&{margin:65",
+    "<STYLE>*{background:#92278F;margin:30 55-20;border:5vw solid#FFF579;border-radius:64q}&{margin:65",
+    "<style>*{border:22q solid#FFF579;border-radius:63q;margin:30 55-20}&{background:#92278F;margin:65",
+    "<style>*{background:#92278F;border:22q solid#FFF579;margin:30 55-20;border-radius:65q}&{margin:65",
+    "<style>*{background:#92278F;border:22q solid#FFF579;border-radius:63q;margin:30 55-20}&{margin:65",
+    "<style>*{margin:30 55-20;border:5vw solid#FFF579;border-radius:64q}&{margin:65;background:#92278F"
+  ]
+}

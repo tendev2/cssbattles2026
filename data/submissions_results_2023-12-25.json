@@ -1,0 +1,25 @@
+{
+  "date": "2023-12-25",
+  "target": "",
+  "colors": [
+    "#F16348",
+    "#BD3E4B",
+    "#14313E",
+    "#100",
+    "#114",
+    "#180",
+    "#140"
+  ],
+  "submissions": [
+    "<body bgcolor=14314 text=14314><p><p><p><p><p><style>p{+p{+p{+p{+p{rotate:0deg;height:20;--m:-159 182;box-shadow:0 87q#F16348,0 28vw#F16348,5vh 5vw,-5vh 5vw}rotate:-45deg;--m:-60 119 0 105}rotate:45deg;--m:37 105 0 119}height:60;--m:-60 102}height:80;border-radius:9in;background:#BD3E4B;margin:var(--m,50 152",
+    "<p><p><dd><dt><style>p{+p{~*{scale:-1}rotate:-45deg;--t:-22.5q}rotate:45deg;translate:var(--t,22.5q)4cm;margin:-60-50}dd{margin:100-80-120}dt{padding:10;box-shadow:0-85q#F16348,0-116q#F16348,5vh -19q,-5vh -19q;color:14313E}*{border-radius:9in;background:#BD3E4B;padding:30}&{background:#14313E;margin:3%122 132",
+    "<p><p><p t><p><style>&>*{background:#14313E;color:14313E;-webkit-box-reflect:left -4in}p{+p{height:60;margin:-60 102}background:#BD3E4B;border-radius:9in;height:80;margin:50 152}[t]{rotate:45deg;margin:30 120;translate:.793em.793em;+p{scale:.33;margin:-51%162;box-shadow:0 244q#F16348,0 340q#F16348,48q 45q,-48q 45q",
+    "<p a><p><p><STYLE>*{>*{padding:40;position:fixed;top:-70;left:50;--a:inset 0 1in#BD3E4B}color:14313E;margin:30%110;border-radius:1in;box-shadow:var(--a,inset 0 1in#BD3E4B,0 0 0 2in)}p{padding:30 70;top:44}[a]{left:6;rotate:-45deg;+*{left:34;rotate:45deg;+*{padding:10;--a:5vh -91q,48q -91q,32q -6vw#F16348,30px 2vh#F16348",
+    "<p><p a><p a><p><style>*{+*{margin:50 40%170;background:#BD3E4B}border-radius:9in;background:#14313E}p{padding:30 90;position:fixed;background:#BD3E4B;margin:70-50}[a]{padding:30 70;margin:114-16;rotate:45deg;+[a]{rotate:-45deg;margin:114-44;+p{padding:10;background:#14313E;margin:7%15;color:F16348;box-shadow:32q 0#14313E,16q 62px,16q 92px",
+    "<p><p b><p m><p v><style>*{background:var(--c,#14313E);border-radius:var(--r)}* *{--c:#BD3E4B;margin:50 160 170;--r:50%}p{position:fixed;padding:30 90;--r:32q;margin:70-50}[b],[m]{padding:30 70;margin:114-16;rotate:45deg}[m]{margin:114-44;rotate:-45deg}[v]{padding:10;margin:28 15;--c:#14313E;box-shadow:32q 0#14313E,16q 66q#F16348,15px 92px#F16348",
+    "<p><p a><p a><p><style>*{+*{margin:50 40%170;background:#BD3E4B}border-radius:9in;background:#14313E}p{width:180;height:60;position:fixed;background:#BD3E4B;margin:70-50}[a]{width:140;margin:114-16;rotate:45deg;+[a]{rotate:-45deg;margin:114-44;+p{width:20;height:20;background:#14313E;margin:28 15;color:F16348;box-shadow:32q 0#14313E,16q 62px,16q 92px",
+    "<p><p><p><p><p><style>*{background:#14313E;border-radius:8in;position:fixed;height:60} p{background:#BD3E4B;inset:110q 110px;+*{inset:172q 129q 0 10lh;rotate:45deg;+*{inset:167q 21ch 0 30%;rotate:-45deg;+*{inset:36q 10pc 53q;height:80;+*{background:0;height:20;rotate:0deg;inset:201q;color:F16348;box-shadow:0-38q,0-70q,16q -8pc#14313E,-16q -8pc#14313E",
+    "<p><p a><p b><p c><style>body,p{background:#bd3e4b}*,[c]{background:#14313e}body{border-radius:50%;margin:50 160 170}p{position:fixed;height:60;width:180;margin:70-50;border-radius:99q}[a],[b]{width:140;rotate:45deg;margin:114-16}[b]{rotate:-45deg;margin:114-44}[c]{width:20;height:20;margin:28 15;color:#f16348;box-shadow:30px 0#14313e,16q 62px,16q 92px",
+    "<p><p><p><p><style>*{background:#14313E;border-radius:1in;+*{margin:50 160 170;background:#BD3E4B}}p{width:180;height:60;position:fixed;background:#BD3E4B;margin:70-50;+p{width:140;margin:114-16;rotate:45deg;+p{rotate:-45deg;margin:114-44;+p{width:20;height:20;rotate:0deg;background:#14313E;margin:28 15;color:F16348;box-shadow:32q 0#14313E,16q 62px,16q 92px"
+  ]
+}

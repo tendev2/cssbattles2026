@@ -1,0 +1,21 @@
+{
+  "date": "2026-01-22",
+  "target": "",
+  "colors": [
+    "#38373A",
+    "#8B7E4C",
+    "#C7B46D"
+  ],
+  "submissions": [
+    "<style>*{*{--g:,#38373A 5em,#0000}background:radial-gradient(4q var(--g,1q at 30%70%,#8B7E4C 5em,#C7B46D",
+    "<style>*{*{--x:1q,#38373A 5pc,#0000}background:radial-gradient(var(--x,3%1%at 30%70%,#8B7E4C 5pc,#C7B46D",
+    "<style>*{*{--x:1q,#38373A 5em,#0000}background:radial-gradient(var(--x,3%1%at 30%70%,#8B7E4C 5em,#C7B46D",
+    "<style>*{*{--o:1q,#38373A 5em,#0000}background:radial-gradient(var(--o,3%1%at 30%70%,#8B7E4C 5em,#C7B46D",
+    "<style>*{*{--g:1q,#38373A 5pc,#0000}background:radial-gradient(var(--g,3%1%at 30%70%,#8b7e4c 5pc,#c7b46d",
+    "<style>*{*{--b:,#38373A 5pc,#0000}background:radial-gradient(4q var(--b,1q at 30%70%,#8B7E4C 5pc,#C7B46D",
+    "<style>*{background:radial-gradient(1q,#38373A,5pc,#0000),radial-gradient(3%1%,#8B7E4C,5pc,#C7B46D)-5pc 63q",
+    "<style>&{background:radial-gradient(1q,#38373A,5pc,#0000),radial-gradient(6%2%,#8B7E4C,5pc,#C7B46D)-5pc 64q",
+    "<style>&{background:radial-gradient(1q,#38373A,5em,#0000),radial-gradient(6%2%,#8B7E4C,5em,#C7B46D)20em 63q",
+    "<style>&{background:radial-gradient(1q,#38373A 5em,#0000),radial-gradient(3%1%at 30%70%,#8B7E4C 5em,#C7B46D"
+  ]
+}

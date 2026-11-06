@@ -1,0 +1,21 @@
+{
+  "date": "2025-04-21",
+  "target": "",
+  "colors": [
+    "#4C455B",
+    "#D96C7B",
+    "#8AB8B6"
+  ],
+  "submissions": [
+    ".<style>*{background:#4C455B;color:D96C7B;border-right:40vw dotted;margin:70 30%150;box-shadow:-64q 0,-50vh -53q 0-11q;*{margin:80 0-80;scale:-1-1 2;color:8AB8B6",
+    "<style>&{background:radial-gradient(1q,#0000,5pc,#4C455B),linear-gradient(#D96C7B,50%,#8AB8B6 0);*{margin:90 340 90-60;box-shadow:60px -64q#D96C7B,25pc 0#4C455B,9cm 64q#8AB8B6",
+    "<style>&{*{margin:90 140;color:4c455b;box-shadow:50vw 0,35vw 63Q#8ab8b6,-50vw 0,-35vw -63Q#d96c7b}background:radial-gradient(1Q,#0000 5pc,#4c455b),linear-gradient(#d96c7b 50%,#8ab8b6 0",
+    "<stylE>&{*{margin:90 140;color:4C455B;box-shadow:-50vw 0,50vw 0,35vw 64q#8AB8B6,-35vw -64q#D96C7B}background:radial-gradient(1q,#0000,5em,#4C455B),linear-gradient(#D96C7B,50%,#8AB8B6 0",
+    "<style>*{margin:90 140;box-shadow:var(--s,-50vw 0,-35vw)-60px#D96C7B,var(--s,50vw 0,35vw)64q#8AB8B6;color:4C455B;background:#4C455B;*{--s:inset 0;margin:0;scale:-1.33;clip-path:circle(",
+    "<style>&{background:radial-gradient(1q,#0000 5pc,#4C455B),linear-gradient(#D96C7B 50%,#8AB8B6 0);color:4C455B;*{margin:90 140;box-shadow:-50vw 0,50vw 0,-35vw -64q#D96C7B,35vw 64q#8AB8B6",
+    "<style>&{background:radial-gradient(1q,#0000,5pc,#4C455B),linear-gradient(#D96C7B 50%,#8AB8B6 0);*{margin:90 140;color:4C455B;box-shadow:50vw 0,35vw 60px#8AB8B6,-50vw 0,-35vw -60px#D96C7B",
+    "<STYLE>&{background:#4C455B;margin:70 120;border-radius:50%;border-block:5pc solid;border-color:D96C7B 0#8AB8B6;*{margin:-60 220-60-180;box-shadow:63q -63q#D96C7B,25em 0#4C455B,9cm 63q#8AB8B6",
+    "<style>&{background:radial-gradient(1q,#0000 5em,#4C455B),linear-gradient(#D96C7B,50%,#8AB8B6 0);*{margin:90 340 150 0;box-shadow:32q -32q 0 32q#D96C7B,9cm 60px#4C455B,310px 5lh 0 30px#8AB8B6",
+    "<style>&{background:#4C455B;margin:90+140;box-shadow:212q+0,-212q+0,-35vw -63q#D96C7B,35vw 63q#8AB8B6;color:4C455B;*{margin:-20;border-radius:50%;background:linear-gradient(#D96C7B,50%,#8AB8B6 0"
+  ]
+}

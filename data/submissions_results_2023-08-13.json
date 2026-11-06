@@ -1,0 +1,20 @@
+{
+  "date": "2023-08-13",
+  "target": "",
+  "colors": [
+    "#0B2429",
+    "#130",
+    "#998235"
+  ],
+  "submissions": [
+    "<body style=margin:85+70;border:solid+5vh#0B2429;border-left-width:130;border-radius:9in bgcolor=998235>",
+    "<body bgcolor=998235 style=margin:85+70;border-radius:1in;border:solid#0B2429;border-width:15+15+15+130>",
+    "<BODY bgcolor=998235 style=margin:85+70;border-radius:1in;border:solid+5vh#0B2429;border-left-width:130>",
+    "<style>*+*{margin:85 70;background:#998235;border:16q solid#0B2429;border-left-width:130;border-radius:1in",
+    "<style>*{background:#998235}*+*{margin:85 70;border:16q solid#0B2429;border-left-width:130;border-radius:9in",
+    "<body bgcolor=998235 text=0B2429 style=margin:85+70;border-radius:9in;border:solid;border-width:15+15+15+130>",
+    "<body bgcolor=998235 text=0B2429 style=margin:85+70;border-radius:1in;box-shadow:inset+341q+0+0-2in,inset+0+0+0+5vh>",
+    "<body bgcolor=998235 text=0B2429 style=border-radius:9IN;box-shadow:inset+0+0+0+16q,inset+341q+0+0-2in;margin:85+70>",
+    "<body bgcolor=998235 text=0B2429 style=border-radius:1in;margin:85+70;box-shadow:inset+341q+0+0-2in,inset+0+0+0+16q>"
+  ]
+}

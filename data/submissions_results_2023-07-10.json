@@ -1,0 +1,11 @@
+{
+  "date": "2023-07-10",
+  "target": "",
+  "colors": [
+    "#060F55",
+    "#6592CF"
+  ],
+  "submissions": [
+    "<a a><a b><style>body {background:radial-gradient(circle,#060F55 40%,#6592CF 0);margin:90 170}[a]{position:absolute;width:60;height:60;border-radius:50%;background:#6592CF}[b]{position:absolute;margin:65 -15;width:90;height:90;background-color:#6592CF;border-radius:90% 0px;rotate:45deg"
+  ]
+}

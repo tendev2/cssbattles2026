@@ -1,0 +1,20 @@
+{
+  "date": "2024-01-07",
+  "target": "",
+  "colors": [
+    "#5E0000",
+    "#F89F65"
+  ],
+  "submissions": [
+    "<style>*{background:conic-gradient(#5E0000,50%,#F89F65 0)0/50em;>*{margin:87 90 93;font:5%a;transform:skewy(16rad",
+    "<style>*{>*{margin:87 90 93}background:conic-gradient(#5E0000 50%,#F89F65 0)0/min(440% - 58em);transform:skewy(19rad",
+    "<style>*{background:conic-gradient(#5E0000 50%,#F89F65 0)-5vw/125em;>*{font:2%a;margin:87 110 93;transform:skewY(17deg",
+    "<style>*{margin:0-60 0-20;border-inline:double 64q#5E0000}&{margin:87 110 93;background:#F89F65;transform:skewY(.292rad",
+    "<style>*{background:#F89F65;+*{background:conic-gradient(#5E0000 50%,#0000 0)0/5ch;margin:87 90 93;transform:skewY(17deg",
+    "<STYLE>*{>*{margin:0-20 0-60}margin:87 110 93;border-inline:64q double#5E0000}&{background:#F89F65;transform:skewy(17deg",
+    "<style>*{background:#F89F65;+*{background:conic-gradient(#5E0000,50%,#0000 0)0/5ch;margin:87 90 93;transform:skewy(17deg",
+    "<style>*{background:linear-gradient(90deg,#f89F65 42em,#5e0000 0)0/40px;+*{font:3%A;margin:87 90 93;transform:skewY(17deg",
+    "<style>&{margin:79 102+85}*{background:linear-gradient(90deg,#F89F65,9em,#5E0000 0)5vw/40px;font:37%a;transform:skewY(19rad",
+    "<style>*{background:linear-gradient(90deg,#5E0000 5vw,#F89F65 0)57%/50em;>*{margin:87 110 93;font:5%a;transform:skewy(.29rad"
+  ]
+}

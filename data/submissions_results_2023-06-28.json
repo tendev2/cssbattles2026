@@ -1,0 +1,11 @@
+{
+  "date": "2023-06-28",
+  "target": "",
+  "colors": [
+    "#E3516E",
+    "#FADE8B"
+  ],
+  "submissions": [
+    "<style>*>*{background:radial-gradient(106q,#0000 90%,#E3516E 0),radial-gradient(106q at 212q 42q,#FADE8B 90%,#0000 0),radial-gradient(106q at 111q 217q,#FADE8B 90%,#0000 0),radial-gradient(106q at 312q 217q,#FADE8B 90%,#E3516E 0"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2023-09-13",
+  "target": "",
+  "colors": [
+    "#0D0C49",
+    "#DA30D4",
+    "#0C0C49"
+  ],
+  "submissions": [
+    "<style>html{border:106q dotted#0D0C49;margin:40 90}*{margin:-50;background:#DA30D4",
+    "<style>html{margin:40 90;border:dotted 25vw#0C0C49}*{background:#DA30D4;margin:-50",
+    "<style>html{border:25vw dotted#0C0C49;margin:40 90}*{background:#DA30D4;margin:-50",
+    "<style>html{margin:40 90;border:dotted+106q#0C0C49}*{background:#DA30D4;margin:-50",
+    "<style>*{background:#DA30D4;margin:-50}html{margin:40 90;border:dotted 25vw#0C0C49",
+    "<style>html{margin:40+90;border:dotted 25vw#0C0C49}*{background:#DA30D4;margin:-50",
+    "<style>html{border:dotted 106q#0C0C49;margin:40 90}*{background:#DA30D4;margin:-50",
+    "<style>html{margin:40 90;border:dotted 25vw#0C0C49}*{margin:-50;background:#DA30D4",
+    "<style>*{background:#DA30D4}html{border:75pt dotted#0C0C49;margin:40 90;>*{margin:-50",
+    "<STYLE>html{margin:40 90;border:25vw dotted#0C0C49}*{background:#DA30D4;>*{margin:-50"
+  ]
+}

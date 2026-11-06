@@ -1,0 +1,21 @@
+{
+  "date": "2025-12-18",
+  "target": "",
+  "colors": [
+    "#08331B",
+    "#1D7B47",
+    "#F0CD48"
+  ],
+  "submissions": [
+    "<style>*{margin:45 105;box-shadow:inset 74q 0#08331B,inset 2in 0#1D7B47;*{margin:70 0;background:#F0CD48;scale:-1",
+    "<stYle>*{background:#f0cd48;box-shadow:inset 74Q 0#08331b,inset 9in 0#1d7b47;margin:45 105;*{margin:70 0;scale:-1",
+    "<style>*{box-shadow:inset 74Q 0#08331b,inset 9cm 0#1D7B47;margin:45 105;background:#F0CD48;*{margin:70 0;scale:-1",
+    "<style>*{background:#F0CD48;box-shadow:inset 74q 0#08331B,inset 3in 0#1D7B47;margin:45 105;*{margin:70 0;scale:-1",
+    "<style>*{background:#f0cd48;margin:45 105;box-shadow:inset 74q 0#08331B,inset 0 5in#1D7B47;*{scale:-1;margin:70 0",
+    "<style>*{margin:45 105;background:conic-gradient(at 74Q,#1d7b47 50%,#08331b 0)space#F0CD48;*{margin:70 0;scale:-1",
+    "<style>*{background:space conic-gradient(at 74q,#1D7B47 50%,#08331B 0)#F0CD48;margin:45 105;*{margin:70 0;scale:-1",
+    "<STYLE>*{scale:-1;background:#F0CD48;margin:45-4%45 295;box-shadow:30vw 0#1D7B47,201q 0#08331B;*{margin:70-311 70 311",
+    "<style>*{background:#08331B;scale:-1;box-shadow:inset 30vw 0#1D7B47;margin:70 0}&{margin:45 105;outline:9cm solid#F0CD48",
+    "<style>*{margin:45 105 45 175;box-shadow:-74q 0#08331B,inset 0 9in#1D7B47;*{margin:70 70 70-70;scale:-1;background:#F0CD48"
+  ]
+}

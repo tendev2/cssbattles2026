@@ -1,0 +1,21 @@
+{
+  "date": "2026-01-21",
+  "target": "",
+  "colors": [
+    "#6A5885",
+    "#B0ACD5",
+    "#110",
+    "#100"
+  ],
+  "submissions": [
+    "<body bgcolor=B0ACD5 text=B0ACD5 style=border-radius:7in;margin:110+160;box-shadow:0+295q+0+5cm,0+47q+0-31q,0+52.7q+0+63q#6A5885>",
+    "<p><style>*{background:#B0ACD5;border-radius:9in;margin:-90 90}&{margin:25%25%0;border-top:solid 25vw#6A5885;p{margin:-30;height:80",
+    "<p><style>&{border-top:25vw solid#6a5885;margin:25%25%0}*{border-radius:2in;background:#b0acd5;*{margin:-90 90;*{height:80;margin:-30",
+    "<p><style>&{margin:25%25%0;border-top:25vw solid#6a5885}*{border-radius:7in;background:#b0acd5;*{margin:-90 90;*{margin:-30;height:80",
+    " <style>*{background:radial-gradient(1Q,#b0acd5 5ch,#0000),radial-gradient(1Q at bottom,#6a5885 25vw,#b0acd5)0 50vw;*{margin:40%190 90",
+    ".<StYle>*{background:radial-gradient(1q,#B0ACD5 5ch,#0000),radial-gradient(1q at bottom,#6A5885 25vw,#B0ACD5)0 50vw;*{margin:40%190 80",
+    ".<style>*{background:radial-gradient(1Q,#b0acd5 5ch,#0000),radial-gradient(1Q at bottom,#6a5885 25vw,#b0acd5)0 50vw;*{margin:44%190 88",
+    " <style>*{background:radial-gradient(1q,#B0ACD5 5ch,#0000),radial-gradient(1q at bottom,#6A5885 25vw,#B0ACD5)0-25vw;*{margin:40%190 80",
+    " <p> <style>p{margin:-30 100}*{margin:100-5%0;background:#B0ACD5}&{margin:25%25%0;border-radius:8cm;box-shadow:inset 0-53q 0 63q#6A5885"
+  ]
+}

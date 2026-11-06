@@ -1,0 +1,25 @@
+{
+  "date": "2023-12-15",
+  "target": "",
+  "colors": [
+    "#FFF45F",
+    "#0098D1",
+    "#403571",
+    "#107",
+    "#98D1",
+    "#FE1A",
+    "#300"
+  ],
+  "submissions": [
+    "<style>*{border-image:conic-gradient(#FFF45F 0 0)99%/8.75em/53q 0;>*{rotate:45deg;font:107%a;background:5vw 70vh/30%80%repeating-conic-gradient(#0098D1,25%,#403571 0 50%",
+    "<body bgcolor=FFF46 text=40357><p><p><style>p{+p{color:98D1;scale:-1 1}outline:9in solid;margin:90 72;clip-path:polygon(50%0,0 0,25%63q,0 30vw,75%30vw,75%0,50%0,50%30vw,25%45vw,25%-63q",
+    "<dt><p><style>*,p{border:64q solid;border-color:#0000#FFF45F}*{>*{>*{margin:0-120}border-block:0;scale:-1}margin:30 140;border-inline-color:#403571#0098D1}&{background:#FFF45F;>*,p{margin:0-60",
+    "<p><p><style>&{background:#FFF45F;zoom:31.75;margin:-41%-3.8q}p{+p{scale:-1+1;color:98D1}outline:solid+3in;color:403571;clip-path:polygon(2q 0,4q 0,4q 4q,-2q 4q,0 2q,-2q 0,2q 0,0-2q,0 6q,2q 4q",
+    "<p><style>*{background:#FE1A;>*{margin:30 35%;border:solid 64q;border-color:var(--a,)FFF45F#0000;background:5vw 150%/30%80%repeating-conic-gradient(#403571,25%,#0098D1 0 50%)fixed;>*{margin:0-120;--a:#0000",
+    "<p><p><p><p><style>*{background:var(--b,#FFF45F)}p{+p{+p{+p{scale:-1}scale:-1 1;--b:#403571}scale:1-1}height:300;margin:-8-8-300;--b:#0098D1;clip-path:polygon(35%30%,35%50%,50%50%,50%30%,65%10%,65%50%,80%30%",
+    "<p><style>&{background:#FFF45F}&,p{>*{margin:0-120;background:linear-gradient(90deg,#403571,50%,#0098D1 0)0/50%;>*{margin:0;--c:#FFF45F}}border:solid 64q;margin:30 140;border-color:#0000 var(--c,#0098D1#0000#403571",
+    "<style>&{background:#FFF45F;border:60px solid;border-color:#0000#0098D1#0000#403571;margin:30 140;>*{background:conic-gradient(#0098D1 50%,#403571 0)0/50%;margin:0-120;clip-path:polygon(0 0,25%50%,0 100%,100%100%,75%50%,100%0",
+    "<style>&{--c:space repeating-linear-gradient(90deg,#403571 0+60px,#0098D1+0+15ch);background:var(--c)0/100%50.1%,var(--c)64q/50.1%,#FFF45F;margin:30+80;>*{margin:76.5;rotate:45deg;box-shadow:90q+91q,90q -91q,-92q 91q,-92q -91q;color:FFF45F",
+    "<style>&{background:#FE1A;>*{zoom:1.6;background:26.5%230%/32%88%repeating-conic-gradient(#0098D1,25%,#403571 0 50%);clip-path:polygon(82%72%,66%50%,82%28%,66%28%,66%6%,50%28%,34%6%,34%28%,18%28%,34%50%,18%72%,34%72%,34%94%,50%72%,66%94%,66%72%"
+  ]
+}

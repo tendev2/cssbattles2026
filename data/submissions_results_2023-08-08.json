@@ -1,0 +1,21 @@
+{
+  "date": "2023-08-08",
+  "target": "",
+  "colors": [
+    "#F903",
+    "#926927",
+    "#FFF",
+    "#F6B750",
+    "#FFEBCB",
+    "#F8B140"
+  ],
+  "submissions": [
+    "<style>*+*{background:radial-gradient(1q,#f903,25vw,#926927),conic-gradient(#FFF 50%,#f6b750 0",
+    "<style>*{background:radial-gradient(1q,#0000,106q,#926927),conic-gradient(#FFEBCB 50%,#F8B140 0",
+    "<style>*{background:radial-gradient(1q,#0000,25vw,#926927),conic-gradient(#FFEBCB 50%,#F8B140 0",
+    "<style>*{background:radial-gradient(1q,#0000,106q,#926927),conic-gradient(#FFEBCB,50%,#F8B140 0",
+    "<STYLE>*{background:radial-gradient(1q,#0000,25vw,#926927),conic-gradient(#FFEBCB 50%,#F8B140 0",
+    "<style>*>*{background:radial-gradient(1q,#0000,106q,#926927),conic-gradient(#ffebcb 50%,#f8b140 0",
+    "<style>*{background:radial-gradient(1q,#0000,106q,#926927 0),conic-gradient(#FFEBCB 50%,#F8B140 0"
+  ]
+}

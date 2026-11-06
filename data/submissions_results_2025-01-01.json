@@ -1,0 +1,21 @@
+{
+  "date": "2025-01-01",
+  "target": "",
+  "colors": [
+    "#3F9461",
+    "#FFF",
+    "#130"
+  ],
+  "submissions": [
+    "<style>*{color:fff;margin:130 160;box-shadow:-30vw 0,30vw 0,-40px -4.4em,40px 4.4em;*{background:#3F9461;margin:-70 40-70 0;font:0'",
+    "<style>*{background:#3F9461;color:FFF;margin:130 90%130 0;box-shadow:5pc 0,40vw -4.4em,60vw 4.4em,80vw 0;*{margin:-70 40-70-40;font:0'",
+    "<style>&{margin:0-20;color:3F9461;border:solid 64q;*{margin:-5%280 40 0;box-shadow:5ch 7lh,5ch -74q,30vw 7ch,50vw 0,70vw 7lh,70vw -74q",
+    "<style>*{background:#3F9461;color:fff;margin:130 90%130 0;box-shadow:5pc 0,10pc -3.9lh,15pc 3.9lh,20pc 0;*{margin:-70 40-70-40;font:0'",
+    "<style>&{color:fff;border-inline:double 30vw;margin:15%20%15%40;*{margin:70 0;box-shadow:40vw 0,-5em 0,0-74q,5em 74q;background:#3F9461",
+    "<style>&{margin:60 80 60 40;border-inline:30vw double;color:FFF;*{margin:70 0;box-shadow:0-74q,5em 74q,-5em 0,10em 0;background:#3F9461",
+    "<style>&{background:#3F9461;color:FFF;border-inline:double 127q;margin:15%20%15%40;*{margin:70-5;box-shadow:0-74q,-5pc+0,164q+0,5pc+74q",
+    "<style>&{background:#3f9461;color:fff;border-inline:30vw double;margin:60 80 60 40;*{margin:70 0;box-shadow:-5pc 0,0-74q,5pc 74q,40vw 0",
+    "<style>&{background:#3F9461;color:fff;margin:60 80 60 40;border-inline:30vw double;*{margin:70 0;box-shadow:-5pc 0,0-74q,5pc 74q,40vw 0",
+    "<style>&{background:#3F9461;color:FFF;border-inline:30vw double;margin:60 80 60 40;*{margin:70 0;box-shadow:0-74q,5pc 74q,40vw 0,-5pc 0"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2023-10-17",
+  "target": "",
+  "colors": [
+    "#ED6A9D",
+    "#050044"
+  ],
+  "submissions": [
+    "<style>*{margin:25 50;font:9%a;background:0 0/50%50%linear-gradient(45deg,#ED6A9D 545em,#050044 0",
+    "<style>*{background:#ED6A9D;margin:25 50;+*{background:0 0/50%50%linear-gradient(45deg,#0000 50%,#050044 0",
+    "<style>*{margin:25 50;background:#ED6A9D;+*{background:0 0/50%50%linear-gradient(45deg,#0000 50%,#050044 0",
+    "<style>*{margin:25 50;background:#ED6A9D;>*{background:0 0/50%50%linear-gradient(45deg,#0000 50%,#050044 0",
+    "<style>*{margin:25 50;background:#ED6A9D;>*{background:0 0/50%50%linear-gradient(45deg,#0000,50%,#050044 0",
+    "<style>*{margin:25 50;background:conic-gradient(at 0 0,#050044,37.5%,#0000 0)0 0/max(5in - 190%)50%#ED6A9D",
+    "<style>*{background:#ED6A9D;margin:25+50;>*{background:0%0/50%50%linear-gradient(45deg,#0000,50%,#050044+0",
+    "<style>*{margin:25 50;background:0 0/50%50%linear-gradient(45deg,#0000 50%,#050044 0)}&{background:#ED6A9D",
+    "<style>*{background:#ED6A9D;margin:25 50;>*{background:0%0/50%50%linear-gradient(45deg,#0000 50%,#050044 0"
+  ]
+}

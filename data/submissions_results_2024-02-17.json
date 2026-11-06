@@ -1,0 +1,21 @@
+{
+  "date": "2024-02-17",
+  "target": "",
+  "colors": [
+    "#B8B4CC",
+    "#453867",
+    "#125"
+  ],
+  "submissions": [
+    "<body bgcolor=B8B4CC text=453867 style=zoom:37;margin:.7+5q+56%;border-radius:.3q;rotate:45deg;box-shadow:2q+0,4q+0,0+2q,2q+2q,4q+2q,0+4q,2q+4q>",
+    "<style>&{color:453867;border-radius:11q;margin:125 175;rotate:45deg;box-shadow:0-74q,74q -74q,0 74q,74q 0,-74q 0,-74q 74q,inset 1in 0,0 0 0 9in#B8B4CC",
+    "<style>*{color:453867;border-radius:11q;margin:0;scale:-1;box-shadow:inset 1cm 0,74q 0,74q -74q,0 74q}&{margin:125 175;rotate:45deg;background:#B8B4CC",
+    "<style>&{border-radius:11q;margin:125 175;rotate:-45deg;box-shadow:inset 1in 0,74q 0,0 74q,74q 74q,-74q 0,-74q -74q,0-74q,0 0 0 9in#B8B4CC;color:453867",
+    "<body bgcolor=B8B4CC text=453867 style=rotate:45deg;margin:26+175+224;border-radius:11q;box-shadow:74q+0,35vw+0,0+74q,0+35vw,74q+74q,74q+35vw,35vw+74q>",
+    "<body bgcolor=B8B4CC text=453867 style=margin:26+175+224;rotate:45deg;border-radius:11q;box-shadow:74q+0,35vw+0,0+74q,0+35vw,74q+74q,35vw+74q,74q+35vw>",
+    "<body bgcolor=B8B4CC style=rotate:45deg;margin:26+175+224;border-radius:11q;box-shadow:0+74q,0+148q,74q+0,74q+74q,74q+148q,148q+0,148q+74q text=453867>",
+    "<style>&{background:#B8B4CC;color:453867;margin:125 175;border-radius:11q;rotate:45deg;box-shadow:inset 2in 0,74q 0,-74q 0,0 74q,0-74q,-74q 74q,74q -74q",
+    "<BODY bgcolor=B8B4CC style='border-radius:10q;margin:125+175;rotate:45deg;box-shadow:inset 0 1in,0 74q,0-74q,74q -74q,-74q 74q,-74q 0,74q 0'text=453867>",
+    "<style>&{background:#B8B4CC;rotate:45deg;border-radius:10q;margin:26 175 224;color:453867;box-shadow:148q 0,74q 0,74q 74q,148q 74q,0 148q,0 74q,74q 148q"
+  ]
+}

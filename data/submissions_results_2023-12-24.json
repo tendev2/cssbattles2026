@@ -1,0 +1,21 @@
+{
+  "date": "2023-12-24",
+  "target": "",
+  "colors": [
+    "#FE29",
+    "#645E00",
+    "#FE08",
+    "#FFF579"
+  ],
+  "submissions": [
+    "<style>&{background:#fe29;border:180q solid;border-color:#0000#645E00;margin:-25%0",
+    "<style>&{border:solid+180q;border-color:#0000#645E00;margin:-25%0;background:#FE08",
+    "<style>&{background:#FE08;border:solid+180q;margin:-25%0;border-color:#0000#645E00",
+    "<style>&{background:#fe29;margin:-25%0;border:solid 180q;border-color:#0000#645E00",
+    "<style>&{border:solid+180q;background:#FE08;border-color:#0000#645E00;margin:-25%0",
+    "<STYLE>&{background:#FE29;border:solid 180q;border-color:#0000#645E00;margin:-25%0",
+    "<style>&{margin:-25%0;border:solid 180q;border-color:#0000#645E00;background:#FE08",
+    "<style>&{border:solid+180q;border-color:#0000#645E00;background:#FFF579;margin:-25%0",
+    "<style>&{margin:-25%0;background:#FFF579;border:180q solid;border-color:#0000#645E00"
+  ]
+}

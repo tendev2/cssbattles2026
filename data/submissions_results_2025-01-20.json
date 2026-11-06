@@ -1,0 +1,17 @@
+{
+  "date": "2025-01-20",
+  "target": "",
+  "colors": [
+    "#F9DDC6",
+    "#594C94",
+    "#594C95"
+  ],
+  "submissions": [
+    "<style>*{margin:11 90;border:solid#F9DDC6;border-width:50 26 50 0;background:#594C94;*{scale:-1;margin:26-26 26 0",
+    "<style>*{background:#594C94;border:solid#F9DDC6;border-width:50 26 50 0;margin:11 90;*{margin:26-26 26 0;scale:-1",
+    "<style>*{margin:11 90;background:#594C95;border:solid#F9DDC6;border-width:50 26 50 0;*{margin:26-26 26 0;scale:-1",
+    "<STYLE>*{margin:11 90;border:solid#F9DDC6;border-width:50 0 50 26;scale:-1;background:#594C94;*{margin:26 0 26-26",
+    "<stylE>*{border:solid#F9DDC6;border-width:50 26 50 0;background:#594C94;margin:11 90;*{scale:-1;margin:26-26 26 0",
+    "<style>*{background:#594C94;margin:11 90;border:solid#F9DDC6;border-width:50 26 50 0;*{margin:26-26 26 0;scale:-1"
+  ]
+}

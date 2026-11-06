@@ -1,0 +1,21 @@
+{
+  "date": "2025-07-11",
+  "target": "",
+  "colors": [
+    "#F7BED9",
+    "#EC0076",
+    "#F069AB"
+  ],
+  "submissions": [
+    "<style>*{background:#F7BED9;color:EC0076;border-radius:9in;margin:4%210 61%90;box-shadow:0 89q,0 9pc,10lh 89q,10lh 9pc;*{color:F069AB;margin:0 120 0-60",
+    "<stYle>*{border-radius:5vw;background:#f7bed9;margin:12%330 53%30;color:F069AB;box-shadow:0 55q,0 7em,45vw 55q,45vw 7em;*{color:EC0076;margin:0-120 0 60",
+    "<style>*{background:#f7bed9;margin:4 330 64%30;border-radius:1in;color:f069ab;box-shadow:0 1in,45vw 1in,0 39vw,45vw 39vw;*{color:ec0076;margin:0-120 0 60",
+    "<style>*{background:#F7BED9;border-radius:1in;margin:60 210 50%90;color:EC0076;box-shadow:0 5ch,0 25vw,45vw 5ch,45vw 25vw;*{margin:0 120 0-60;color:F069AB",
+    "<style>*{border-radius:9in;color:EC0076;margin:15%210 50%90;box-shadow:0 5ch,0 25vw,45vw 5ch,45vw 25vw;*{margin:0 120 0-60;color:F069AB;background:#F7BED9",
+    "<style>*{background:#f7bed9;margin:0 330 65%30;border-radius:1in;color:f069ab;box-shadow:0 25vw,0 40vw,45vw 25vw,45vw 40vw;*{color:ec0076;margin:0-120 0 60",
+    "<stylE>*{background:#F7BED9;border-radius:1in;margin:0 210 65%90;color:EC0076;box-shadow:0 10pc,45vw 10pc,0 25vw,45vw 25vw;*{margin:0 120 0-60;color:F069AB",
+    "<STYLE>*{border-radius:1in;margin:25%402 160-102;color:EC0076;box-shadow:2in 0,93vw 0,2in 60px,93vw 60px;*{color:F069AB;margin:0 120 0-60;background:#F7BED9",
+    "<style>*{margin:60 150 200;border-radius:1in;box-shadow:-64q 5ch,30vw 5ch,-64q 25vw,30vw 25vw;color:EC0076;*{margin:0 120 0-60;color:F069AB;background:#F7BED9",
+    "<style>*{background:#f7bed9;border-radius:5vw;margin:25%127%40%-148;color:F069AB;box-shadow:188Q 0,379Q 0,188Q 60px,379Q 60px;*{margin:0-120 0 60;color:EC0076"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2023-09-15",
+  "target": "",
+  "colors": [
+    "#A4281F",
+    "#DE9473"
+  ],
+  "submissions": [
+    "<style>*+*{background:linear-gradient(#A4281F,#0000+50%)space -212q#DE9473",
+    "<style>*>*{background:linear-gradient(#A4281F,#0000 50%)0/50.1%space#DE9473",
+    "<STYLE>*>*{background:linear-gradient(#A4281F,#0000 50%)-2%/51%space#DE9473",
+    "<style>*+*{background:linear-gradient(#A4281F,#0000 50%)0/50%repeat-y#DE9473",
+    "<style>*+*{background:linear-gradient(#A4281F,#0000 50%)-2%0/51%space#DE9473",
+    "<style>*+*{background:0/50%linear-gradient(#A4281F,#0000 50%)repeat-y#DE9473",
+    "<style>*>*{background:linear-gradient(#A4281F,#0000 50%)0/50%no-repeat#DE9473",
+    "<style>*+*{background:linear-gradient(#A4281F,#0000 50%)0/50%no-repeat#DE9473"
+  ]
+}

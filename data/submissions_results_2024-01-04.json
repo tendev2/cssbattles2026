@@ -1,0 +1,20 @@
+{
+  "date": "2024-01-04",
+  "target": "",
+  "colors": [
+    "#7EA26F",
+    "#204F23",
+    "#140"
+  ],
+  "submissions": [
+    "<body bgcolor=7EA27 text=204F2 style=margin:35%190;box-shadow:50px+0,-50px+0,25vw+0+0+50px#7EA26F,-25vw+0+0+50px#7EA26F,0+0+0+74q>",
+    "<body text=204F2 bgcolor=7EA27 style=margin:35%190;box-shadow:-50px+0,50px+0,-25vw+0+0+50px#7EA26F,25vw+0+0+50px#7EA26F,0+0+0+74q>",
+    "<body style=margin:35%190;box-shadow:-50px+0,50px+0,-25vw+0+0+50px#7EA26F,25vw+0+0+50px#7EA26F,0+0+0+74q bgcolor=7EA27 text=204F2>",
+    "<body bgcolor=7EA27 text=204F23 style=margin:35%190;box-shadow:-50px+0,50px+0,-25vw+0+0+50px#7EA26F,25vw+0+0+50px#7EA26F,0+0+0+74q>",
+    "<style>*{background:#7EA26F;color:204F23;margin:8.75em 23.75ch;box-shadow:50px 0,106q 0 0 53q#7EA26F,0 0 0 4.4em;+*{scale:-1;font:0'",
+    "<body text=204F23 bgcolor=7EA26F style=margin:140+190;box-shadow:-50px+0,50px+0,-25vw+0+0+50px#7EA26F,25vw+0+0+50px#7EA26F,0+0+0+74q>",
+    "<body bgcolor=7EA26F text=204F23 style='margin:35%190;box-shadow:-50px 0,50px 0,-25vw 0 0 50px#7EA26F,25vw 0 0 50px#7EA26F,0 0 0 74q'>",
+    "<style>*{background:#7EA26F;margin:70 95;>*{color:204F23;box-shadow:50px 0,-50px 0,75pt 0 0 50px#7EA26F,-75pt 0 0 50px#7EA26F,0 0 0 74q",
+    "<p><style>p{height:8;margin:-20 12;rotate:90deg}*{border-block:5vw solid#204F23;margin:70 120;+*{margin:0 16;zoom:2.5;background:#7EA26F"
+  ]
+}

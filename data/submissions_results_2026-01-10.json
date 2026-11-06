@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-10",
+  "target": "",
+  "colors": [
+    "#E25C57",
+    "#F4DA64",
+    "#120",
+    "#150"
+  ],
+  "submissions": [
+    "<style>*{box-shadow:0 0 0 30vw#E25C57;rotate:45deg;background:#F4DA64;margin:120;scale:.5}&{margin:30 80;border-image:radial-gradient(#E25C57,58q,#F4DA64 0)476/277q/9lh",
+    "<dl><dt><p><style>*,dl{*{background:#F4DA64;margin:-45 5;--b:7.5ch solid;rotate:45deg}margin:45 185;border-block:var(--b)#E25C57;--b:32q dotted;dl{margin:-45-5}p{margin:30-20;font:50%a",
+    "<dt><dl><p><img><style>*{color:E25C57;background:#F4DA64;width:20;height:6.67lh;offset:ray(45deg);border-block:7.5ch solid;+*,dl{padding:15 5;border-block:32q dotted}img{width:60;font:50%/0'",
+    "<style>*{rotate:45deg;background:radial-gradient(1q,#F4DA64 7.5ch,#E25C57 0 30vw,#F4DA64)fixed;border-image:radial-gradient(#E25C57,3.9ch,#F4DA64 0)96%/7pc;margin:28 78;*{margin:92;font:2cm'",
+    "<dt><dl><dt><p><style>&{background:#f4da64;*{width:20;height:120;color:e25c57;border-block:64Q solid;dt{border-block:32Q dotted;height:150;width:30}p{scale:3 1;margin:45 5}+*,dt,dl{offset:ray(45deg",
+    "<dt><dl><dt><p><style>*{background:#F4DA64;color:E25C57;offset:ray(45deg);width:20;height:120;border-block:7.5ch solid;+*,dl{border-block:32q dotted;width:30;height:150;p{width:60;height:0;font:8px'",
+    "<dl><dt><dl><dt><p><style>*:not(p){box-shadow:5lh 0,-5lh 0;*{background:#F4DA64;color:E25C57;offset:ray(45deg);height:20;width:60;dl{border-radius:1in;width:30;height:30}p{background:#E25C57;height:60",
+    "<dt><dl><dt><dl><p><style>*{background:#f4da64;color:e25c57;*{offset:ray(45deg);width:20;height:120;border-block:3.8em solid;dt{border-block:32Q dotted;width:30;height:150;p{width:60;height:0;font:50%\"",
+    "<dl><dd><dl><style>dl{rotate:45deg}*{margin:var(--m,45 185);border-block:var(--b,32q dotted)#E25C57;background:#F4DA64;rotate:90deg;*{--m:-30 0;*{--m:-45 5;--b:64q solid;*{--m:-60 0;*{--m:60-40;zoom:.5",
+    "<b><a><b><a><b><a><b><a><b><style>*{background:#F4DA64;position:fixed;inset:0}&>*>b{margin:120 170}a,b{background:#E25C57}b{rotate:90deg}a{border-radius:50%;margin:-75 15 105;>b{margin:-64 -44 64 84;rotate:45deg"
+  ]
+}
