@@ -4,9 +4,8 @@
   "colors": [
     "#AC4A",
     "#486841",
-    "#125",
     "#C6DD7F",
-    "#200"
+    "#0000"
   ],
   "submissions": [
     "<style>&{background:#ac4a;color:486841;margin:125 175;border:27q solid;>*{outline:211q dotted;margin:-6;rotate:45deg;clip-path:circle(25vw",

@@ -4,9 +4,8 @@
   "colors": [
     "#ACEB3F",
     "#6FB440",
-    "#486841",
-    "#150",
-    "#160"
+    "#0000",
+    "#486841"
   ],
   "submissions": [
     "<style>*{+*{margin:150 0 0;scale:1-1}background:conic-gradient(from.9rad,#ACEB3F 50%,#6FB440 0 71.4%,#0000 0)0 74q/100%1in#486841 no-repeat",

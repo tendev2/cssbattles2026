@@ -3,11 +3,8 @@
   "target": "",
   "colors": [
     "#D95362",
-    "#FFF9C0",
-    "#120",
     "#FE45",
-    "#220",
-    "#156"
+    "#FFF9C0"
   ],
   "submissions": [
     "<stylE>*{background:#D95362;color:FFF9C0;margin:120-192-800;box-shadow:inset 0 0 0 5vw,0-68vw 0-2in,0-5lh#D95362}&{margin:80 170;border-radius:1in",

@@ -3,9 +3,8 @@
   "target": "",
   "colors": [
     "#302562",
-    "#0098D1",
-    "#120",
-    "#750"
+    "#0000",
+    "#0098D1"
   ],
   "submissions": [
     "<style>*{rotate:45deg;background:#302562;margin:45 70;border-image:radial-gradient(#0000 30px,#0098D1 0 53q,#0000 0)50.2%/50%/660em;>*{font:0'",

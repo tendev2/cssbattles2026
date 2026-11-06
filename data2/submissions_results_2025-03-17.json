@@ -3,13 +3,11 @@
   "target": "",
   "colors": [
     "#EAC049",
+    "#0000",
     "#000",
     "#65A3C5",
     "#F1DDF5",
-    "#115",
-    "#233",
-    "#90B2",
-    "#173"
+    "#90B2"
   ],
   "submissions": [
     "<style>*{*{--c:#EAC049;margin:63 40%34;border-image:linear-gradient(57grad,#0000 33%,#000 0 41.3%,#65A3C5 0).1%/0 27q}background:radial-gradient(1q,#000 5vh,var(--c,#65A3C5)0 5ch,#F1DDF5)0-89q fixed",

@@ -5,11 +5,8 @@
     "#CA8E75",
     "#FEFF58",
     "#414B81",
-    "#200",
     "#FDFF58",
-    "#A489",
-    "#150",
-    "#155"
+    "#A489"
   ],
   "submissions": [
     "<p><p b><p><style>*{background:var(--b,#ca8e75)}p{--b:#feff58;height:200;margin:50 82-250;rotate:15deg}[b]{--b:#414b81;scale:1.55.6;rotate:-15deg;+p{scale:.36.3",

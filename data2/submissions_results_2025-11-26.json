@@ -3,10 +3,7 @@
   "target": "",
   "colors": [
     "#62306D",
-    "#FFF",
-    "#330",
-    "#170",
-    "#162"
+    "#FFF"
   ],
   "submissions": [
     "<p><p><style>*+*{background:radial-gradient(1q at bottom,#62306D 5ch,#FFF 0 35vw,#62306D)0-7em/100%94%;scale:-1 1}p{outline:9in solid#FFF;clip-path:polygon(81%171q,1e8%0,92%193q,7e6%1e8q",

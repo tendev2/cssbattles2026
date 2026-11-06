@@ -3,9 +3,7 @@
   "target": "",
   "colors": [
     "#7DDDEB",
-    "#9A5DCB",
-    "#160",
-    "#102"
+    "#9A5DCB"
   ],
   "submissions": [
     "<dl x=5><p><style>*{width:70;height:70;background:#7DDDEB;margin:40%210;border-image:conic-gradient(#9A5DCB)9 3 1 64/44%space;*{offset:ray(180deg)attr(x lh,-5lh",

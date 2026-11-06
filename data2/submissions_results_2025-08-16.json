@@ -2,11 +2,10 @@
   "date": "2025-08-16",
   "target": "",
   "colors": [
+    "#0000",
     "#D96C7B",
     "#4C455B",
-    "#F3EAD2",
-    "#135",
-    "#127"
+    "#F3EAD2"
   ],
   "submissions": [
     "<style>*{padding:0 30 30;background:radial-gradient(1q,#0000 3.9lh,#D96C7B 0 25vw,#4C455B)content-box,#F3EAD2;*{margin:135 70 5;font:0'",

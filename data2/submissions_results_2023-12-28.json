@@ -3,9 +3,9 @@
   "target": "",
   "colors": [
     "#32295A",
+    "#0000",
     "#DDFB",
-    "#B0ACD5",
-    "#506"
+    "#B0ACD5"
   ],
   "submissions": [
     "<style>*{background:#32295A;margin:37.5%50%;border-image:conic-gradient(#0000 66deg,#ddfb 0)25 90/5em 5em 0/0 95q 5em;scale:-1",

@@ -2,9 +2,9 @@
   "date": "2026-01-14",
   "target": "",
   "colors": [
+    "#0000",
     "#FFD0FA",
-    "#A82973",
-    "#120"
+    "#A82973"
   ],
   "submissions": [
     "<style>*{background:radial-gradient(6vh 1lh,#0000.006lh,#ffd0fa 0 3.1ch,#a82973)50vw 50vh/243Q 201Q;*{margin:90 0;font:37.5Q/24\"",

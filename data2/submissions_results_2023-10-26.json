@@ -1,11 +1,7 @@
 {
   "date": "2023-10-26",
   "target": "",
-  "colors": [
-    "#892626",
-    "#C0B932",
-    "#100"
-  ],
+  "colors": [],
   "submissions": [
     "<body bgcolor=892626 text=C0B93 style=rotate:45deg;margin:25%150;box-shadow:53q+0,-53q+0,0+53q,0-53q>",
     "<body bgcolor=892626 text=C0B93 style=margin:25%150;rotate:45deg;box-shadow:0+53q,0-53q,53q+0,-53q+0>",

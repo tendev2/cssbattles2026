@@ -4,9 +4,7 @@
   "colors": [
     "#4C4C6B",
     "#FAE29E",
-    "#4A9A86",
-    "#110",
-    "#102"
+    "#4A9A86"
   ],
   "submissions": [
     "<style>&{background:radial-gradient(#4C4C6B 35%,#FAE29E 0)space#4A9A86;margin:110 160;border-image:radial-gradient(#FAE29E 35%,#4C4C6B 0)0 280/36%5em/25vw",

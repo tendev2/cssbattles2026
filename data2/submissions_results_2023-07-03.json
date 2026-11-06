@@ -3,10 +3,7 @@
   "target": "",
   "colors": [
     "#6592CF",
-    "#060F55",
-    "#160",
-    "#171",
-    "#170"
+    "#060F55"
   ],
   "submissions": [
     "<p a><p b><style>p{rotate:45deg}[b],*{background:#6592cf}body{display:flex}[a]{margin:62 112;width:160;height:160;background:repeating-linear-gradient(#060f55 0 25%,#6592cf 25% 37.5%)}[b]{position:fixed;left:171;top:170;width:20;height:50;box-shadow:-63q -120q#6592cf"

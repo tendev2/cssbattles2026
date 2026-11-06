@@ -2,9 +2,9 @@
   "date": "2023-10-25",
   "target": "",
   "colors": [
-    "#0D004C",
     "#B8B7CC",
-    "#15E3"
+    "#0D004C",
+    "#0000"
   ],
   "submissions": [
     "<body bgcolor=0D004C text=B8B7CC><p><p><p><style>p{height:30;box-shadow:30vw 0,0 32q;margin:60 192-30 72",

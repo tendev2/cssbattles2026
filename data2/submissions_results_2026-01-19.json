@@ -4,11 +4,7 @@
   "colors": [
     "#DE9473",
     "#F9EAF1",
-    "#394257",
-    "#110",
-    "#102",
-    "#200",
-    "#105"
+    "#394257"
   ],
   "submissions": [
     "<style>*{background:#DE9473}&{margin:80 10;border:75q dashed#F9EAF1;*{border-image:conic-gradient(#394257)50%/32%25%;margin:-40",

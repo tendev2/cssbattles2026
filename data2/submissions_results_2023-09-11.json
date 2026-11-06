@@ -2,13 +2,10 @@
   "date": "2023-09-11",
   "target": "",
   "colors": [
-    "#B5D1FB",
     "#230259",
+    "#B5D1FB",
     "#8819F6",
-    "#250",
-    "#27E5",
-    "#185",
-    "#245"
+    "#27E5"
   ],
   "submissions": [
     "<body bgcolor=B5D1FB><img><img><p><img><img><style>img{+*{color:230259}color:8819F6;padding:45 30%0;border-radius:1in 1in 0 0;border:solid 32q;border-bottom:0;margin:67-728-8 177}p{scale:-1",

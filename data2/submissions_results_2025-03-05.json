@@ -3,8 +3,8 @@
   "target": "",
   "colors": [
     "#6255AA",
-    "#D96E9F",
-    "#121"
+    "#0000",
+    "#D96E9F"
   ],
   "submissions": [
     "<stylE>&{background:#6255AA;border-image:repeating-conic-gradient(from 36deg,#0000,30%,#D96E9F 0 50%)70%60%/445q 180q/75vw 0",

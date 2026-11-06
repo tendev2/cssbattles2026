@@ -3,12 +3,10 @@
   "target": "",
   "colors": [
     "#668884",
-    "#EED9D9",
     "#668887",
     "#A443",
-    "#144",
-    "#B662",
-    "#110"
+    "#EED9D9",
+    "#B662"
   ],
   "submissions": [
     "<dl><dl><dl><p><style>*{margin:30;*{margin:0}padding:40 0 0;background:#668884;color:EED9D9;box-shadow:inset.717lh 0,inset -23.45em 0;font:62%/1.62lh'",

@@ -4,7 +4,7 @@
   "colors": [
     "#8647E6",
     "#EFEB99",
-    "#130"
+    "#0000"
   ],
   "submissions": [
     "<StYle>*{background:conic-gradient(var(--b,#8647E6)75%,#EFEB99 0)4px 0/7em 85vw;*{margin:130 56 0;--b:#0000",

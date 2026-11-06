@@ -2,8 +2,7 @@
   "date": "2024-01-03",
   "target": "",
   "colors": [
-    "#92278F",
-    "#FFF579"
+    "#92278F"
   ],
   "submissions": [
     "<style>&{background:#92278F;color:FFF579;border-inline:double 96q;margin:75 95;>*{margin:30-1 90;box-shadow:-63q 64q,63q 0,0 32q",

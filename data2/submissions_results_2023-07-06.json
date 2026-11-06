@@ -3,10 +3,8 @@
   "target": "",
   "colors": [
     "#F5D6B4",
-    "#D86F45",
-    "#105",
-    "#110",
-    "#100"
+    "#0000",
+    "#D86F45"
   ],
   "submissions": [
     "<a a><a b><style>a{left:105;border-radius:50%}*{background:#f5d6b4;position:fixed}[a]{top:25;width:110;height:110;border-style:solid;border-color:#0000#0000#d86f45#d86F45;border-width:40px;rotate:-45deg}[b]{top:100;background:#d86f45;width:40;height:40;box-shadow:159q 0#d86f45"

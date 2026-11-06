@@ -3,12 +3,8 @@
   "target": "",
   "colors": [
     "#E3516E",
-    "#FADE8B",
-    "#130",
-    "#114",
-    "#140",
-    "#110",
-    "#155"
+    "#0000",
+    "#FADE8B"
   ],
   "submissions": [
     "<p a><p b><style>*>*{position:fixed;background:#E3516E}[b]{left:130;top:114;width:140;height:110;background:radial-gradient(circle at 69px 64px,#0000 21%,#E3516E 0%31.25%,#0000 0),radial-gradient(circle at 68px 42px,#FADE8B 69px,#E3516E 0)}[a]{left:155;top:43;width:90;height:61;background:#FADE8B;border-radius:80px 80px 20px 20px"
