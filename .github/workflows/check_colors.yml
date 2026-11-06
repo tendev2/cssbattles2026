@@ -22,7 +22,7 @@ jobs:
           node-version: '20'
 
       - name: Run color extraction script
-        run: node script.js
+        run: node correct_colors.js
 
       - name: Commit and push changes if any
         run: |
