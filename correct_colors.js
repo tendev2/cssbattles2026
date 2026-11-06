@@ -2,10 +2,10 @@ const fs = require('fs');
 const path = require('path');
 
 // Set to true to preview changes without saving, or false to overwrite the files
-const DRY_RUN = true;
+const DRY_RUN = false;
 
 // Path to your data directory containing the JSON files
-const dataDir = path.join(__dirname, 'data');
+const dataDir = path.join(__dirname, 'data2');
 
 // Read all files in the data directory
 fs.readdir(dataDir, (err, files) => {
