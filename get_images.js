@@ -15,10 +15,12 @@ async function scrape() {
     const page = await browser.newPage();
 
     console.log(`Navigating to ${URL}...`);
-    await page.goto(URL, { waitUntil: 'networkidle' });
+    // Change wait_until to 'domcontentloaded' to avoid hanging on persistent background requests
+    await page.goto(URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
 
-    // Wait for the calendar tiles to render completely
-    await page.waitForSelector('.target-tile--daily', { timeout: 10000 });
+    console.log("Waiting for calendar grid to render...");
+    // Wait specifically for the grid element or daily tiles to be visible
+    await page.waitForSelector('.PreviousDailyTargets-module__mEeCpq__calendarGrid, .target-tile--daily', { timeout: 30000 });
 
     // Extract image URLs and date text directly from the browser context
     const targets = await page.$$eval('.target-tile--daily', tiles => {
