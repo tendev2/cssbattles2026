@@ -36,8 +36,9 @@ fs.readdir(dataDir, (err, files) => {
                     const hexRegex = /#([0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})\b/g;
                     const matches = submissionsText.match(hexRegex) || [];
 
-                    // Normalize colors (convert to uppercase) and remove duplicates
-                    const uniqueColors = [...new Set(matches.map(color => color.toUpperCase()))];
+                    // Normalize colors (convert to uppercase), remove duplicates, and exclude #0000
+                    const uniqueColors = [...new Set(matches.map(color => color.toUpperCase()))]
+                        .filter(color => color !== '#0000');
 
                     const oldColors = jsonData.colors || [];
 
