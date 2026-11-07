@@ -7,13 +7,24 @@ const OUTPUT_DIR = "images";
 // Helper function to add a delay
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
+// Helper function to thoroughly clean filenames (removes emojis, symbols, and extra spaces)
+function sanitizeFilename(text) {
+    return text
+        // Remove emojis and pictographs using Unicode property escapes
+        .replace(/[\p{Emoji}\p{Extended_Pictographic}]/gu, '')
+        // Remove any non-word characters except spaces, underscores, and hyphens
+        .replace(/[^\w\s-]/g, '')
+        .trim()
+        // Replace spaces or multiple underscores with a single underscore
+        .replace(/\s+/g, '_');
+}
+
 async function scrapeMonthWithRetry(page, url, retries = 3) {
     for (let attempt = 1; attempt <= retries; attempt++) {
         try {
             console.log(`Navigating to ${url} (Attempt ${attempt}/${retries})...`);
             await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
             
-            // Increased timeout to 40 seconds to handle slow renders or heavy background scripts
             await page.waitForSelector('.target-tile--daily', { timeout: 40000 });
             return true; // Success
         } catch (err) {
@@ -45,7 +56,6 @@ async function scrape() {
         const monthStr = String(month).padStart(2, '0'); // Padded format like "06"
         const url = `https://cssbattle.dev/daily?month=${month}&year=${year}`;
 
-        // Attempt to load the page with retry logic
         const loaded = await scrapeMonthWithRetry(page, url, 3);
         
         if (loaded) {
@@ -72,8 +82,10 @@ async function scrape() {
 
                 for (const target of targets) {
                     try {
-                        // Clean up date text (e.g., "Jun 28 🥵" -> "Jun_28")
-                        const cleanDateText = target.dateText.replace(/🥵/g, '').trim().replace(/\s+/g, '_');
+                        // Sanitize the date text to strip emojis and weird special characters
+                        const cleanDateText = sanitizeFilename(target.dateText);
+                        if (!cleanDateText) continue;
+
                         const filename = `${cleanDateText}.png`;
                         const filepath = path.join(monthDir, filename);
 
@@ -110,7 +122,7 @@ async function scrape() {
     }
 
     await browser.close();
-    console.log(`\nScraping complete! All images organized inside '${OUTPUT_DIR}/'.`);
+    console.log(`\nScraping complete! All images organized and cleaned inside '${OUTPUT_DIR}/'.`);
 }
 
 scrape().catch(err => {
