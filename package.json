@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node get_images.js"
+    "start": "node get_images.js",
+    "css-scrape": "node get_images.js"
   },
   "dependencies": {
     "playwright": "^1.40.0"
