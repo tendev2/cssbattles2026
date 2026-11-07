@@ -4,8 +4,30 @@ import { chromium } from 'playwright';
 
 const OUTPUT_DIR = "images";
 
-// Helper function to add a delay between requests
+// Helper function to add a delay
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+async function scrapeMonthWithRetry(page, url, retries = 3) {
+    for (let attempt = 1; attempt <= retries; attempt++) {
+        try {
+            console.log(`Navigating to ${url} (Attempt ${attempt}/${retries})...`);
+            await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
+            
+            // Increased timeout to 40 seconds to handle slow renders or heavy background scripts
+            await page.waitForSelector('.target-tile--daily', { timeout: 40000 });
+            return true; // Success
+        } catch (err) {
+            console.warn(`Attempt ${attempt} failed for ${url}: ${err.message}`);
+            if (attempt < retries) {
+                console.log(`Retrying in 5 seconds...`);
+                await sleep(5000);
+            } else {
+                console.error(`Failed to load ${url} after ${retries} attempts.`);
+                return false;
+            }
+        }
+    }
+}
 
 async function scrape() {
     const browser = await chromium.launch({ headless: true });
@@ -20,69 +42,70 @@ async function scrape() {
     while (currentDate <= today) {
         const year = currentDate.getFullYear();
         const month = currentDate.getMonth() + 1; // 1-12
-        const monthStr = String(month).padStart(2, '0'); // Ensures padded format like "06"
+        const monthStr = String(month).padStart(2, '0'); // Padded format like "06"
         const url = `https://cssbattle.dev/daily?month=${month}&year=${year}`;
 
-        console.log(`\nNavigating to ${url}...`);
-        try {
-            await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
-            await page.waitForSelector('.target-tile--daily', { timeout: 15000 });
+        // Attempt to load the page with retry logic
+        const loaded = await scrapeMonthWithRetry(page, url, 3);
+        
+        if (loaded) {
+            try {
+                // Extract targets from the DOM
+                const targets = await page.$$eval('.target-tile--daily', tiles => {
+                    return tiles.map(tile => {
+                        const img = tile.querySelector('img.target-tile__image');
+                        const pill = tile.querySelector('.target-top-info__pill');
+                        return {
+                            url: img ? img.src : null,
+                            dateText: pill ? pill.textContent.trim() : null
+                        };
+                    }).filter(t => t.url && t.dateText);
+                });
 
-            // Extract targets from the DOM
-            const targets = await page.$$eval('.target-tile--daily', tiles => {
-                return tiles.map(tile => {
-                    const img = tile.querySelector('img.target-tile__image');
-                    const pill = tile.querySelector('.target-top-info__pill');
-                    return {
-                        url: img ? img.src : null,
-                        dateText: pill ? pill.textContent.trim() : null
-                    };
-                }).filter(t => t.url && t.dateText);
-            });
+                console.log(`Found ${targets.length} targets for ${monthStr}/${year}. Processing...`);
 
-            console.log(`Found ${targets.length} targets for ${monthStr}/${year}. Processing...`);
-
-            // Define target folder path: images/YYYY/MM/
-            const monthDir = path.join(OUTPUT_DIR, String(year), monthStr);
-            if (!fs.existsSync(monthDir)) {
-                fs.mkdirSync(monthDir, { recursive: true });
-            }
-
-            for (const target of targets) {
-                try {
-                    // Clean up date text (e.g., "Jun 28 🥵" -> "Jun_28")
-                    const cleanDateText = target.dateText.replace(/🥵/g, '').trim().replace(/\s+/g, '_');
-                    const filename = `${cleanDateText}.png`;
-                    const filepath = path.join(monthDir, filename);
-
-                    // Duplicate check: Skip download if file already exists locally
-                    if (fs.existsSync(filepath)) {
-                        console.log(`Skipping (already exists): ${year}/${monthStr}/${filename}`);
-                        continue;
-                    }
-
-                    // Download image via fetch
-                    const response = await fetch(target.url);
-                    if (response.ok) {
-                        const buffer = Buffer.from(await response.arrayBuffer());
-                        fs.writeFileSync(filepath, buffer);
-                        console.log(`Saved: ${year}/${monthStr}/${filename}`);
-                    }
-                } catch (err) {
-                    console.error(`Failed to download image from ${target.url}:`, err.message);
+                // Define target folder path: images/YYYY/MM/
+                const monthDir = path.join(OUTPUT_DIR, String(year), monthStr);
+                if (!fs.existsSync(monthDir)) {
+                    fs.mkdirSync(monthDir, { recursive: true });
                 }
+
+                for (const target of targets) {
+                    try {
+                        // Clean up date text (e.g., "Jun 28 🥵" -> "Jun_28")
+                        const cleanDateText = target.dateText.replace(/🥵/g, '').trim().replace(/\s+/g, '_');
+                        const filename = `${cleanDateText}.png`;
+                        const filepath = path.join(monthDir, filename);
+
+                        // Duplicate check: Skip download if file already exists locally
+                        if (fs.existsSync(filepath)) {
+                            console.log(`Skipping (already exists): ${year}/${monthStr}/${filename}`);
+                            continue;
+                        }
+
+                        // Download image via fetch
+                        const response = await fetch(target.url);
+                        if (response.ok) {
+                            const buffer = Buffer.from(await response.arrayBuffer());
+                            fs.writeFileSync(filepath, buffer);
+                            console.log(`Saved: ${year}/${monthStr}/${filename}`);
+                        }
+                    } catch (err) {
+                        console.error(`Failed to download image from ${target.url}:`, err.message);
+                    }
+                }
+            } catch (err) {
+                console.error(`Error processing data for ${monthStr}/${year}:`, err.message);
             }
-        } catch (err) {
-            console.error(`Failed to scrape ${url}:`, err.message);
         }
 
         // Move to the next month
         currentDate.setMonth(currentDate.getMonth() + 1);
 
-        // Add a 3-second delay between month requests to prevent rate limiting
+        // Add a 4-second polite delay between month requests
         if (currentDate <= today) {
-            console.log("Waiting 3 seconds before next request...");
-            await sleep(3000);
+            console.log("Waiting 4 seconds before next month...\n");
+            await sleep(4000);
         }
     }
 
