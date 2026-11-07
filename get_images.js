@@ -83,9 +83,9 @@ async function scrape() {
                 for (const target of targets) {
                     try {
                         // Sanitize the date text to strip emojis and weird special characters
-                        const cleanDateText = sanitizeFilename(target.dateText);
+                        const cleanDateText = sanitizeFilename(target.dateText); 
+                        if (cleanDateText) console.log(`${target.dateText}  *******>   ${leanDateText}`);
                         if (!cleanDateText) continue;
-
                         const filename = `${cleanDateText}.png`;
                         const filepath = path.join(monthDir, filename);
 
