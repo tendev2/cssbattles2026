@@ -69,7 +69,27 @@ const { chromium } = require('playwright');
       submissions
     };
   });
+  // Download the target image to images/year/month/
+  if (scrapedData.targetImage) {
+    const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    const monthName = months[yesterday.getMonth()];
+    const imageName = `${monthName}_${String(yesterday.getDate()).padStart(2, '0')}.png`;
 
+    const imageDir = path.join(__dirname, 'images', dateString.split('-')[0], dateString.split('-')[1]);
+    fs.mkdirSync(imageDir, { recursive: true });
+
+    const imageResponse = await context.request.get(scrapedData.targetImage);
+    if (imageResponse.ok()) {
+      const imageBuffer = await imageResponse.body();
+      const imagePath = path.join(imageDir, imageName);
+      fs.writeFileSync(imagePath, imageBuffer);
+      console.log(`Saved image to ${imagePath}`);
+    } else {
+      console.log(`Failed to download image: ${imageResponse.status()}`);
+    }
+  } else {
+    console.log('No target image found, skipping download.');
+  }
   await browser.close();
 
   // Construct final JSON output matching required format
