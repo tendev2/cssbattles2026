@@ -2,9 +2,9 @@ name: Daily CSSBattle Scraper
 
 on:
   schedule:
-    # Runs daily at 06:00 UTC — adjust as needed
+    # Runs daily at 01:00 UTC
     - cron: '0 1 * * *'
-  workflow_dispatch:  # allows manual runs from the Actions tab
+  workflow_dispatch:
 
 jobs:
   scrape:
@@ -18,8 +18,8 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4.2.0
         with:
-          node-version: 22  
-          
+          node-version: '22'
+
       - name: Install dependencies
         run: npm install
 
