@@ -1,46 +1,32 @@
-import fs from "node:fs/promises";
-import path from "node:path";
+const fs = require("node:fs/promises");
+const path = require("node:path");
 
-const OWNER = "tendev2";
-const REPO = "cssbattles2026";
-const BRANCH = "main";
-const OUTPUT_FILE = "dataset.json";
+const DATA_DIR = path.join(__dirname, "data");
+const IMAGES_DIR = path.join(__dirname, "images");
+const OUTPUT_FILE = path.join(__dirname, "dataset.json");
 
-// Optional: set GITHUB_TOKEN env var if you hit rate limits
-const headers = {
-  Accept: "application/vnd.github+json",
-  "User-Agent": "cssbattles-dataset-builder",
-  ...(process.env.GITHUB_TOKEN
-    ? { Authorization: `Bearer ${process.env.GITHUB_TOKEN}` }
-    : {}),
-};
+// Set to a number (e.g. 3) to cap submissions per target, or null for all
+const MAX_SUBMISSIONS_PER_TARGET = null;
 
-async function fetchJson(url) {
-  const res = await fetch(url, { headers });
-  if (!res.ok) {
-    throw new Error(`HTTP ${res.status} for ${url}: ${await res.text()}`);
+async function walkFiles(dir) {
+  let entries;
+  try {
+    entries = await fs.readdir(dir, { withFileTypes: true });
+  } catch (err) {
+    if (err.code === "ENOENT") return [];
+    throw err;
   }
-  return res.json();
+
+  const files = await Promise.all(
+    entries.map((entry) => {
+      const fullPath = path.join(dir, entry.name);
+      return entry.isDirectory() ? walkFiles(fullPath) : fullPath;
+    })
+  );
+  return files.flat();
 }
 
-/**
- * Uses the Git Trees API recursively so nested folders like
- * images/2026/07/Jul_13_🙂.png are listed in one request.
- */
-async function getRepoTree() {
-  const url = `https://api.github.com/repos/${OWNER}/${REPO}/git/trees/${BRANCH}?recursive=1`;
-  const data = await fetchJson(url);
-  if (data.truncated) {
-    console.warn("Warning: Git tree response was truncated.");
-  }
-  return data.tree.filter((item) => item.type === "blob");
-}
-
-/**
- * Builds lookup maps for images so we can match a JSON record's `date`
- * (e.g., "2023-08-05" or "2026-07-13") to its path under `images/`.
- */
-function indexImages(imageBlobs) {
+function indexImages(imagePaths) {
   const byIsoDate = new Map();
   const byMonthDay = new Map();
 
@@ -59,29 +45,25 @@ function indexImages(imageBlobs) {
     dec: "12",
   };
 
-  for (const blob of imageBlobs) {
-    const filePath = blob.path; // e.g. "images/2026/07/Jul_13_🙂.png"
-    const decodedPath = decodeURIComponent(filePath);
+  for (const fullPath of imagePaths) {
+    const relPath = path.relative(__dirname, fullPath).split(path.sep).join("/");
 
-    // Match YYYY/MM/... or YYYY-MM-DD in path
-    const isoMatch = decodedPath.match(/(\d{4})[-/](\d{2})[-/](\d{2})/);
+    const isoMatch = relPath.match(/(\d{4})[-/](\d{2})[-/](\d{2})/);
     if (isoMatch) {
-      const key = `${isoMatch[1]}-${isoMatch[2]}-${isoMatch[3]}`;
-      byIsoDate.set(key, filePath);
+      byIsoDate.set(`${isoMatch[1]}-${isoMatch[2]}-${isoMatch[3]}`, relPath);
     }
 
-    // Match Mon_DD in filename (e.g., Jul_13_...) + optional year folder
-    const baseName = path.basename(decodedPath);
+    const baseName = path.basename(relPath);
     const monDayMatch = baseName.match(/^([A-Za-z]{3})[_-](\d{1,2})/);
     if (monDayMatch) {
       const mm = monthNames[monDayMatch[1].toLowerCase()];
       const dd = monDayMatch[2].padStart(2, "0");
       if (mm) {
-        const yearMatch = decodedPath.match(/images\/(\d{4})\//);
+        const yearMatch = relPath.match(/images\/(\d{4})\//);
         if (yearMatch) {
-          byIsoDate.set(`${yearMatch[1]}-${mm}-${dd}`, filePath);
+          byIsoDate.set(`${yearMatch[1]}-${mm}-${dd}`, relPath);
         }
-        byMonthDay.set(`${mm}-${dd}`, filePath);
+        byMonthDay.set(`${mm}-${dd}`, relPath);
       }
     }
   }
@@ -94,7 +76,6 @@ function findMatchingImage(dateStr, filename, imageIndex) {
     return imageIndex.byIsoDate.get(dateStr);
   }
 
-  // Fallback: extract YYYY-MM-DD from filename like submissions_results_2023-08-05.json
   const fileDateMatch = filename.match(/(\d{4}-\d{2}-\d{2})/);
   if (fileDateMatch) {
     const d = fileDateMatch[1];
@@ -111,38 +92,37 @@ function findMatchingImage(dateStr, filename, imageIndex) {
 }
 
 async function main() {
-  const blobs = await getRepoTree();
-
-  const dataFiles = blobs.filter(
-    (b) => b.path.startsWith("data/") && b.path.endsWith(".json")
+  const allDataFiles = (await walkFiles(DATA_DIR)).filter((f) =>
+    f.endsWith(".json")
   );
-  const imageBlobs = blobs.filter(
-    (b) =>
-      b.path.startsWith("images/") &&
-      /\.(png|jpe?g|webp|gif|svg)$/i.test(b.path)
+  const allImageFiles = (await walkFiles(IMAGES_DIR)).filter((f) =>
+    /\.(png|jpe?g|webp|gif|svg)$/i.test(f)
   );
 
-  const imageIndex = indexImages(imageBlobs);
+  const imageIndex = indexImages(allImageFiles);
   const dataset = [];
   let skippedNoCode = 0;
   let skippedNoImage = 0;
 
-  for (const fileBlob of dataFiles) {
-    const rawUrl = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/${fileBlob.path}`;
+  for (const filePath of allDataFiles.sort()) {
     try {
-      const record = await fetchJson(rawUrl);
-      const firstSubmission = Array.isArray(record.submissions)
-        ? record.submissions[0]
-        : undefined;
+      const raw = await fs.readFile(filePath, "utf8");
+      const record = JSON.parse(raw);
 
-      if (!firstSubmission) {
+      const validSubmissions = Array.isArray(record.submissions)
+        ? record.submissions.filter(
+            (s) => typeof s === "string" && s.trim().length > 0
+          )
+        : [];
+
+      if (validSubmissions.length === 0) {
         skippedNoCode++;
         continue;
       }
 
       const matchedImage = findMatchingImage(
         record.date,
-        path.basename(fileBlob.path),
+        path.basename(filePath),
         imageIndex
       );
 
@@ -151,19 +131,28 @@ async function main() {
         continue;
       }
 
-      dataset.push({
-        image: matchedImage,
-        colors: Array.isArray(record.colors) ? record.colors : [],
-        code: firstSubmission,
-      });
+      const selectedSubmissions =
+        typeof MAX_SUBMISSIONS_PER_TARGET === "number"
+          ? validSubmissions.slice(0, MAX_SUBMISSIONS_PER_TARGET)
+          : validSubmissions;
+
+      const colors = Array.isArray(record.colors) ? record.colors : [];
+
+      for (const code of selectedSubmissions) {
+        dataset.push({
+          image: matchedImage,
+          colors,
+          code,
+        });
+      }
     } catch (err) {
-      console.error(`Failed processing ${fileBlob.path}:`, err.message);
+      console.error(`Failed processing ${filePath}:`, err.message);
     }
   }
 
   await fs.writeFile(OUTPUT_FILE, JSON.stringify(dataset, null, 2), "utf8");
   console.log(
-    `Done. Wrote ${dataset.length} items to ${OUTPUT_FILE} (skipped: ${skippedNoCode} missing submission, ${skippedNoImage} unmatched image).`
+    `Done. Wrote ${dataset.length} items to ${OUTPUT_FILE} (skipped: ${skippedNoCode} empty, ${skippedNoImage} unmatched image).`
   );
 }
 
