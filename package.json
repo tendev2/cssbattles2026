@@ -4,7 +4,8 @@
   "private": true,
   "description": "Daily CSSBattle scraper",
   "scripts": {
-    "scrape": "node scrape.js"
+    "scrape": "node scrape.js",
+    "build-dataset": "node build-dataset.js"
   },
   "dependencies": {
     "playwright": "^1.49.0"
