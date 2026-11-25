@@ -50589,5 +50589,77 @@
       "#2F434E"
     ],
     "code": "<p><style>&,&>*{height:70;background:#f8b140}*{width:0;border-radius:2in;border:var(--x,38Q#cf6939)solid;p{--x:11Q#2f434e;padding:5}offset:ray(0deg"
+  },
+  {
+    "image": "images/2026/11/Nov_24.png",
+    "colors": [
+      "#0D1335",
+      "#FBFAE2"
+    ],
+    "code": "<dl><p><style>*{background:#0D1335;border-block:53q solid#FBFAE2;width:20;height:42q;offset:ray(45deg"
+  },
+  {
+    "image": "images/2026/11/Nov_24.png",
+    "colors": [
+      "#0D1335",
+      "#FBFAE2"
+    ],
+    "code": "<dl><p><style>*{background:#0d1335;border-block:53Q solid#fbfae2;height:42q;width:20;offset:ray(45deg"
+  },
+  {
+    "image": "images/2026/11/Nov_24.png",
+    "colors": [
+      "#0D1335",
+      "#FBFAE2"
+    ],
+    "code": "<dt><p><style>*{background:#0D1335;width:20;height:42q;border-block:53q solid#FBFAE2;offset:ray(45deg"
+  },
+  {
+    "image": "images/2026/11/Nov_24.png",
+    "colors": [
+      "#0D1335",
+      "#FBFAE2"
+    ],
+    "code": "<dd><p><style>*{background:#0d1335;border-block:53Q solid#fbfae2;width:20;height:42q;offset:ray(45deg"
+  },
+  {
+    "image": "images/2026/11/Nov_24.png",
+    "colors": [
+      "#0D1335",
+      "#FBFAE2"
+    ],
+    "code": "<body bgcolor=0D1335><dl><p><style>*{width:20;height:40;border-block:53q solid#FBFAE2;offset:ray(45deg"
+  },
+  {
+    "image": "images/2026/11/Nov_24.png",
+    "colors": [
+      "#0D1335",
+      "#FBFAE2"
+    ],
+    "code": "<dl><p><style>&{background:#0D1335}*{border-block:solid 53q#FBFAE2;width:20;height:40;offset:ray(45deg"
+  },
+  {
+    "image": "images/2026/11/Nov_24.png",
+    "colors": [
+      "#0D1335",
+      "#FBFAE2"
+    ],
+    "code": "<dt><p><style>&{background:#0d1335}*{width:20;height:40;border-block:53Q solid#fbfae2;offset:ray(45deg"
+  },
+  {
+    "image": "images/2026/11/Nov_24.png",
+    "colors": [
+      "#0D1335",
+      "#FBFAE2"
+    ],
+    "code": "<dl><p><style>&{background:#0D1335}*{height:40;width:20;border-block:solid 53q#FBFAE2;offset:ray(45deg"
+  },
+  {
+    "image": "images/2026/11/Nov_24.png",
+    "colors": [
+      "#0D1335",
+      "#FBFAE2"
+    ],
+    "code": "<body bgcolor=0D1335><dl><p><style>*{border-block:53q solid#FBFAE2;height:40;width:20;offset:ray(45deg"
   }
 ]
