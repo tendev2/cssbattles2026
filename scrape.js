@@ -3,7 +3,7 @@ const path = require('path');
 const { chromium } = require('playwright');
 
 // Set to a number (e.g. 3) to cap submissions per target, or null for all
-const MAX_SUBMISSIONS_PER_TARGET = null;
+const MAX_SUBMISSIONS_PER_TARGET = 1;
 const DATASET_FILE = path.join(__dirname, 'dataset.json');
 
 function appendTargetToDataset(datasetPath, relImagePath, colors, submissions) {
