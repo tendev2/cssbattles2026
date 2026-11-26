@@ -50661,5 +50661,13 @@
       "#FBFAE2"
     ],
     "code": "<body bgcolor=0D1335><dl><p><style>*{border-block:53q solid#FBFAE2;height:40;width:20;offset:ray(45deg"
+  },
+  {
+    "image": "images/2026/11/Nov_25.png",
+    "colors": [
+      "#6DA78A",
+      "#FFFFFF"
+    ],
+    "code": "<img height=95><style>*{zoom:.9;margin:-12.7 0;border-inline:66q solid#fff}&{margin:150-7;background:#597d"
   }
 ]
