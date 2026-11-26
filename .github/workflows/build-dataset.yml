@@ -26,17 +26,17 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Build dataset.json
+      - name: Build dataset_final.json
         run: npm run build-dataset
 
-      - name: Commit and push dataset.json
+      - name: Commit and push dataset_final.json
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dataset.json
+          git add dataset_final.json
           if git diff --staged --quiet; then
             echo "No changes to dataset.json"
           else
-            git commit -m "chore: update dataset.json"
+            git commit -m "chore: update dataset_final.json"
             git push
           fi
