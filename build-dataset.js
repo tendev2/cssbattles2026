@@ -9,7 +9,7 @@ const MAX_SUBMISSIONS_PER_TARGET = null;
 
 function getOutputFilePath() {
   const dateStamp = new Date().toISOString().slice(0, 10);
-  return path.join(__dirname, `dataset_${dateStamp}.json`);
+  return path.join(__dirname, `dataset_final.json`);
 }
 
 async function walkFiles(dir) {
