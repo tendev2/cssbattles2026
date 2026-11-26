@@ -5,7 +5,7 @@ const DATA_DIR = path.join(__dirname, "data");
 const IMAGES_DIR = path.join(__dirname, "images");
 
 // Set to a number (e.g. 3) to cap submissions per target, or null for all
-const MAX_SUBMISSIONS_PER_TARGET = null;
+const MAX_SUBMISSIONS_PER_TARGET = 1;
 
 function getOutputFilePath() {
   const dateStamp = new Date().toISOString().slice(0, 10);
